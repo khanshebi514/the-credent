@@ -10,7 +10,7 @@ export default function ContactForm() {
             <div className="flex justify-center items-center flex-col">
               <h2 className="info-text text-white">Get in Touch</h2>
               <p className="font-poppins text-xs text-gray-400 my-5 text-wrap p-2 text-center">
-                Let's Start Talking About getting You Credentialed
+                Lets Start Talking About getting You Credentialed
               </p>
 
               <div className="flex flex-col gap-2 w-[100%]">

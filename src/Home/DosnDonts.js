@@ -39,7 +39,7 @@ export default function DosnDont() {
             </div>
         </div>
         <div>
-          <Image src={'/images/Group-17.png'} width={300} height={400}/>
+          <Image src={'/images/Group-17.png'} alt="this is image" width={300} height={400}/>
         </div>
     </section>
   )

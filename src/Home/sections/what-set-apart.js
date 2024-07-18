@@ -17,7 +17,7 @@ export default function WhatSetApart() {
 
                 <div className="flex justify-center items-start gap-2 flex-col w-[320px] h-[148px]">
                     <h2 className="text-lg md:text-xl font-bold">Dedication</h2>
-                    <p className="text-gray-400">We're committed to your success, working tirelessly to exceed your expectations and goals.</p>
+                    <p className="text-gray-400">Were committed to your success, working tirelessly to exceed your expectations and goals.</p>
                 </div>
                 
                 <div className="flex justify-center items-start gap-2 flex-col w-[320px] h-[148px]">

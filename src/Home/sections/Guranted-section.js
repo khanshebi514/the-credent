@@ -6,7 +6,7 @@ export default function GurantedSection() {
     <h1 className="font-bold text-xl md:text-3xl my-10">
     Credentialing Excellence Guaranteed
     </h1>
-    <p className="font-poppins text-gray-400"> Credentialing ensures that healthcare providers are properly recognized and authorized by insurance companies, guaranteeing a smooth and accurate reimbursement system. At TheCredentialing, we're your dedicated partners in the provider credentialing process helping you keep pace with the fastly progressing healthcare industry and stay ahead of the competition. </p>
+    <p className="font-poppins text-gray-400"> Credentialing ensures that healthcare providers are properly recognized and authorized by insurance companies, guaranteeing a smooth and accurate reimbursement system. At TheCredentialing, were your dedicated partners in the provider credentialing process helping you keep pace with the fastly progressing healthcare industry and stay ahead of the competition. </p>
     </div>
 
     <div className="flex flex-col md:flex-row justify-around items-center gap-[50px]">

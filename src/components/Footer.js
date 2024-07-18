@@ -53,7 +53,7 @@ export default function Footer() {
 
          
             <div className="flex justify-center items-center gap-5 flex-wrap">
-                <ListItem iconURL={<FaAngleRight className="mt-[1px]"/>} text={<Link className="hover:text-white text-gray-400" href={'/faqs'}>FAQ's</Link>}/>
+                <ListItem iconURL={<FaAngleRight className="mt-[1px]"/>} text={<Link className="hover:text-white text-gray-400" href={'/faqs'}>FAQs</Link>}/>
                 <ListItem iconURL={<FaAngleRight className="mt-[1px]"/>} text={<Link className="hover:text-white text-gray-400" href={'/sitemap'}>Sitemap</Link>}/>
                 <ListItem iconURL={<FaAngleRight className="mt-[1px]"/>} text={<Link className="hover:text-white text-gray-400" href={'/contact-us'}>Contact Us</Link>}/>
                 <ListItem iconURL={<FaAngleRight className="mt-[1px]"/>} text={<Link className="hover:text-white text-gray-400" href={'/privacy-policy'}>Privacy Policy</Link>}/>
