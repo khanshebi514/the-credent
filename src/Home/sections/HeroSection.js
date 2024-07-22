@@ -14,7 +14,7 @@ export default function Hero() {
         }}
         className="p-2"
       >
-        <div className="mt-5 md:mt-[200px] grid grid-cols-1 lg:grid-cols-2 align-middle gap-5 h-full max-w-[1200px] m-auto">
+        <div className="md:mt-[100px] grid grid-cols-1 lg:grid-cols-2 align-middle gap-5 h-full max-w-[1200px] m-auto">
         <div className="columns-1 text-section text-center my-5 place-self-center font-poppins mt-[150px] md:mt-0 w-full">
           <span className="flex justify-center items-center gap-2">
             <Image src='/images/slide-title-border.png' alt="heading border" width={40} height={10}/>
