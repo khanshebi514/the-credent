@@ -26,13 +26,15 @@ export const SPECIOAL_OPTIONS = [
 
 export const MENU_ITEM = [
     {
-        label:(<Link href={'/' || '/home'} >Home</Link>),
+        label:"Home",
         key:'1',
+        path:'/'
     },
 
     {
-        label:(<Link href={'services'}>Services</Link>),
+        label:"Services",
         key:'2',
+        path:'/services',
         children:[
             {
             label:'Commercial insurance Credentialing',
@@ -66,22 +68,22 @@ export const MENU_ITEM = [
     },
 
     {
-        label:(<Link href={'link'}>Pricing</Link>),
+        label:"Pricing",
         key:'3',
         path:'pricing'
     },
     {
-        label:(<Link href={'fourm'}>Fourm</Link>),
+        label:"Fourm",
         key:'4',
         path:'forum'
     },
     {
-        label:(<Link href={'about-us'}>About Us</Link>),
+        label:"About Us",
         key:'5',
         path:'about-us',
     },
     {
-        label:(<Link href={'contact-us'}>Contact Us</Link>),
+        label:"Contact Us",
         key:'6',
         path:'contact-us'
     },

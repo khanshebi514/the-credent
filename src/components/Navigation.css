@@ -43,3 +43,12 @@ color: #203993 !important;
 
 }
 
+.ant-btn-default{
+    color: white !important;
+    border: none !important;
+  }
+  .ant-btn-default:hover{
+    background-color: #444 !important;
+    color: white !important;
+    border: none !important;
+  }

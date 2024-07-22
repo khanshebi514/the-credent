@@ -24,7 +24,7 @@ export default function Hero() {
             </h2>
             <Image src='/images/slide-title-border.png' alt="heading border" width={40} height={10}/>
             </span>
-          <h1 className="text-3xl md:text-5xl font-poppins font-extrabold text-[#ecedef] my-1 px-10 md:px-0">
+          <h1 className="text-5xl font-poppins font-extrabold text-[#ecedef] my-1 px-10 md:px-0">
             Take a closer look at our extensive set of services
           </h1>
           <p className="font-poppins text-gray-400 mt-1 p-2">Empowering Your Practice</p>

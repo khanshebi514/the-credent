@@ -30,13 +30,15 @@ export default function ContactForm() {
                 <div className="flex justify-around items-center gap-2 md:gap-5 flex-col md:flex-row w-[90%] m-auto">
                   <Input type="email" placeholder="Your Email" name="email" size="large" className="w-full rounded-[5px]"/>
 
-                  <Select
-                    defaultValue="Select Speciallity"
-                    size="large"
-                    className="w-full rounded-[5px]"
-                    style={{borderRadius:'5px'}}
-                    options={ SPECIOAL_OPTIONS}
-                  />
+                <select className="w-full p-2 h-[40px] rounded-[5px] outline-none border-none ">
+                <option value='select'>--Select Speciality--</option>
+                  <option value={SPECIOAL_OPTIONS[0].value}>{SPECIOAL_OPTIONS[0].label}</option>
+                  <option value={SPECIOAL_OPTIONS[1].value}>{SPECIOAL_OPTIONS[1].label}</option>
+                  <option value={SPECIOAL_OPTIONS[2].value}>{SPECIOAL_OPTIONS[2].label}</option>
+                  <option value={SPECIOAL_OPTIONS[3].value}>{SPECIOAL_OPTIONS[3].label}</option>
+                  <option value={SPECIOAL_OPTIONS[4].value}>{SPECIOAL_OPTIONS[4].label}</option>
+                  
+                </select>
                 </div>
                 <textarea
                   className="rounded-[5px] font-poppins px-5 py-2 h-32 outline-none w-[90%] m-auto"
