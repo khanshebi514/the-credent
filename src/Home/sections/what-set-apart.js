@@ -95,7 +95,7 @@ export default function WhatSetApart() {
           </p>
         </div>
       </div>
-      <PartnerSlider/>
+      
     </section>
   );
 }
