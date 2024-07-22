@@ -18,7 +18,13 @@
  font-weight: 600;
  gap: none !important;
 color: #203993 !important;
+
 }
+
+.ant-menu-horizontal li span{
+   padding: none !important;
+   gap: 0px !important;
+   }
 .ant-menu-horizontal li a:hover{
     background-color:#203993;
     color: white !important;
@@ -32,6 +38,8 @@ color: #203993 !important;
 
 .ant-menu-horizontal {
     border-bottom: none !important;
+    gap: 0px !important;
+    padding: 0px !important;
 
 }
 

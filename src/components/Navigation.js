@@ -16,17 +16,17 @@ const [menu, setMenu] = useState(false)
 
   return (
     <header className="w-full h-[90px] fixed z-10 bg-white shadow-lg">
-      <Row align={'middle'} justify={'space-evenly'} className="h-full max-w-[1280px] m-auto px-0 md:px-[100px]">
+      <Row align={'middle'} justify={'space-between'} className="h-full max-w-[1280px] m-auto px-5 sm:px-5 md:px-[100px] lg:px-0">
 
-        <Col span={8} md={4}>
+        <Col span={8} lg={4} >
         <Image src={'images/cred-logo.svg'} width={200} height={100} alt="logo image"/>
         </Col>
         
-        <Col span={0} md={12} >
+        <Col span={0} lg={12} offset={2}>
         <Menu className="custom_menu" items={MENU_ITEM} mode="horizontal" selectedKeys={'1'}/>
         </Col>
 
-        <Col span={8} md={3}>
+        <Col span={8} lg={4}>
         <div className="flex justify-center items-center gap-2"> 
           <FaFacebook className="cursor-pointer shadow-lg rounded-full p-1 text-[28px] text-black hover:bg-primary hover:text-white"/>
           <FaInstagram className="cursor-pointer shadow-lg rounded-full p-1 text-[28px] text-black hover:bg-primary hover:text-white"/>
@@ -35,13 +35,13 @@ const [menu, setMenu] = useState(false)
         </div>
         </Col>
 
-        <Col span={5} md={2}>
-        <Button style={{background:'#203993', color:'white', padding:'8px'}} size="" className="hidden md:flex">
+        <Col span={5} lg={2} >
+        <Button style={{background:'#203993', color:'white', padding:'8px'}} size="large" className="hidden lg:flex">
           Sign In
         </Button>
 
-        <Button style={{background:'#203993', color:'white', padding:'8px'}} className="md:hidden">
-          <FiMenu size={25} onClick={()=>setMenu(prev=>!prev)}/>
+        <Button style={{background:'#203993', color:'white', padding:'8px'}} className="lg:hidden">
+          <FiMenu size={18} onClick={()=>setMenu(prev=>!prev)}/>
         </Button>
         </Col>
 

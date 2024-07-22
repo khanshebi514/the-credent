@@ -11,8 +11,8 @@ export default function Footer() {
     <footer className="bg-[#222] w-full">
         <div className="max-w-[1280px] m-auto flex flex-col md:flex-row gap-5 md:gap-0 justify-between items-center p-[60px]">
             <div className="text-area w-[300px]">
-                <h3 className="font-bold text-sm text-white mt-2">NEWSLETTER</h3>
-               <p className="text-sm text-gray-500 mt-3">
+                <h3 className="font-bold text-[11px] text-white mt-2">NEWSLETTER</h3>
+               <p className="text-xs text-gray-500 mt-3">
                Discover the world of technology with our most recent credentialing service innovations and regular email updates. Get our newsletter by subscribing now!
                </p>
                <div className="flex justify-center items-center mt-5">
@@ -25,11 +25,26 @@ export default function Footer() {
             </div>
 
             <div className="text-area w-[300px]">
-                <h3 className="font-bold text-sm text-white">CONTACT US</h3>
+                <h3 className="font-bold text-[11px] md:text-[12px] text-white">CONTACT US</h3>
                 <div className="mt-5 text-white space-y-3">
-                <ListItem iconURL={<TiLocation className="text-primary mt-1 mr-3"/>} text={'626 RXR Plaza Uniondale, NY 11556'}/>
-               <ListItem iconURL={<FaPhone className="text-primary mt-1 mr-3"/>} text={'(800) 500-8117'}/>
-               <ListItem iconURL={<MdOutlineEmail className="text-primary mt-1 mr-3"/>} text={'info@thecredentialing.com'}/>
+                <ListItem 
+                iconURL={<TiLocation 
+                className="text-primary mt-1 mr-3"/>} 
+                text={'626 RXR Plaza Uniondale, NY 11556'} 
+                className={'text-[11px] md:text-[12px]  text-gray-400'}/>
+
+               <ListItem 
+               iconURL={<FaPhone className="text-primary mt-1 mr-3"/>} 
+               text={'(800) 500-8117'} 
+               className={'text-[11px] md:text-[12px] text-gray-400'}/>
+
+               <ListItem 
+               iconURL={<MdOutlineEmail 
+               className="text-primary mt-1 mr-3"/>} 
+               text={'info@thecredentialing.com'}
+               className={'text-[11px] md:text-[12px] text-gray-400'}
+               />
+
                 </div>
                 <div className="flex items-center gap-2 text-white mt-5">
                 <FaFacebook size={20} className="cursor-pointer    "/>
