@@ -7,7 +7,7 @@ export default function Hero() {
       <section
         style={{
           backgroundImage:
-            "linear-gradient(rgba(0,37,41, 0.4), rgba(256, 256, 256, 0.2)), url('/images/credit-2.png')",
+            "linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/images/credit-2.png')",
           backgroundPosition: "center",
           backgroundSize: "cover",
           objectFit:'cover'
