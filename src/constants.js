@@ -1,4 +1,6 @@
+import { Dropdown } from "antd"
 import Link from "next/link"
+import { space } from "postcss/lib/list"
 
 export const SPECIOAL_OPTIONS = [
     {
@@ -26,15 +28,16 @@ export const SPECIOAL_OPTIONS = [
 
 export const MENU_ITEM = [
     {
-        label:"Home",
+        label:(<Link href='/'>Home</Link>),
         key:'1',
         path:'/'
     },
 
     {
-        label:"Services",
+        label:(<Link href='/services'>Services</Link>),
         key:'2',
         path:'/services',
+        subItem:true,
         children:[
             {
             label:'Commercial insurance Credentialing',
@@ -68,22 +71,22 @@ export const MENU_ITEM = [
     },
 
     {
-        label:"Pricing",
+        label:(<Link href='/pricing'>Pricing</Link>),
         key:'3',
         path:'pricing'
     },
     {
-        label:"Fourm",
+        label:(<Link href='/fourm'>Fourm</Link>),
         key:'4',
         path:'forum'
     },
     {
-        label:"About Us",
+        label:(<Link href='/about-us'>About Us</Link>),
         key:'5',
         path:'about-us',
     },
     {
-        label:"Contact Us",
+        label:(<Link href='/contact-us'>Contact Us</Link>),
         key:'6',
         path:'contact-us'
     },

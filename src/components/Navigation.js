@@ -16,14 +16,15 @@ export default function Navigation() {
   const [mobileMenu, setMobileMenu] = useState(false)
 
   return (
-    <header className="flex justify-center items-center gap-2 h-[85px] p-2">
+    <header className="flex justify-center items-center gap-2 h-[85px] p-2 ">
 
       <div className="mr-10 md:mr-16 w-[150px] md:w-[200px]">
         <Image src='./images/cred-logo.svg' alt="lgo image" height={70} width={200}/>
       </div>
 
-      <div className="hidden lg:block">
-        <MenuItem/>
+      <div className="hidden lg:block w-[550px]">
+      <Menu selectedKeys={1} mode="horizontal" items={MENU_ITEM} className="custum_menu uppercase " />
+        {/* <Menu items={MENU_ITEM} mode="horizontal" className=" w-full custum_menu" selectedKeys={'1'} /> */}
       </div>
 
       <div className="flex justify-center items-center gap-3">

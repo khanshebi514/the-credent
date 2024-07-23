@@ -30,8 +30,8 @@ export default function ContactForm() {
                 <div className="flex justify-around items-center gap-2 md:gap-5 flex-col md:flex-row w-[90%] m-auto">
                   <Input type="email" placeholder="Your Email" name="email" size="large" className="w-full rounded-[5px]"/>
 
-                <select className="w-full p-2 h-[40px] rounded-[5px] outline-none border-none ">
-                <option value='select'>--Select Speciality--</option>
+                <select className="w-full p-2 h-[40px] rounded-[5px] outline-none border-none font-poppins">
+                <option value='select' className="p-2 font-poppins">Select Speciality</option>
                   <option value={SPECIOAL_OPTIONS[0].value}>{SPECIOAL_OPTIONS[0].label}</option>
                   <option value={SPECIOAL_OPTIONS[1].value}>{SPECIOAL_OPTIONS[1].label}</option>
                   <option value={SPECIOAL_OPTIONS[2].value}>{SPECIOAL_OPTIONS[2].label}</option>
