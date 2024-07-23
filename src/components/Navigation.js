@@ -42,8 +42,8 @@ export default function Navigation() {
         {mobileMenu ? <RxCross2 onClick={()=>{setMobileMenu(prev=>!prev)}}/> : <LuMenu onClick={()=>{setMobileMenu(prev=>!prev)}}/> } 
         </button>
 
-        <div className=" absolute top-12 -left-8">
-        {mobileMenu && <Menu items={MENU_ITEM} mode="vertical"/>}
+        <div className=" absolute top-12 right-0 w-[300px] ">
+        {mobileMenu && <Menu items={MENU_ITEM} mode="inline"/>} 
         </div>
         
       </div>

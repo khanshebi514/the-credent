@@ -7,7 +7,7 @@ export default function Hero() {
       <section
         style={{
           backgroundImage:
-            "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/images/credit-2.png')",
+            "linear-gradient(rgba(0,37,41, 0.4), rgba(256, 256, 256, 0.2)), url('/images/credit-2.png')",
           backgroundPosition: "center",
           backgroundSize: "cover",
           objectFit:'cover'
@@ -41,9 +41,9 @@ export default function Hero() {
           Register With Top Insurance Companies with Help of {" "}
           <span className="font-shadow text-[31px]">The  Credentialing</span>{" "}
         </h2>
-        <Button className="bg-[#222] text-white border-none hero mt-5 md:mt-0" size="large">
+        <button className="bg-[#222] text-white border-none hero mt-5 px-2 py-3 md:mt-0 rounded-md hover:bg-[#333]">
           Get Started Now
-        </Button>
+        </button>
         </div>
       </div>
     </>
