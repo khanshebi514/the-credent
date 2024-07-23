@@ -14,7 +14,7 @@ export default function ServiceOffer() {
             <p className="font-poppins text-[#7777]">We simplify the complex process of getting healthcare providers credentialed with commercial insurance companies. Our services encompass completing applications, document gathering, follow-up, and issue resolution. We also offer ongoing support for credential maintenance and compliance with ever-changing requirements.</p>
             </div>
        
-       <div className="flex justify-center items-center gap-10 flex-wrap">
+       <div className="flex justify-center items-center gap-6 flex-wrap">
         {services.map((item)=>
             <ServiceCard key={item.key} title={item.title} description={item.description}/>
     )}

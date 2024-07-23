@@ -8,9 +8,9 @@ export default function DontSettleOrdinary() {
             <h1 className="heading-text font-serif text-white">Dont Settle For Ordaniry</h1>
             <p className="text-gray-400 mt-3">Get your hands on high-quality credentialing services tailored to your practice needs.</p>
 
-            <Button className="mt-5 bg-primary text-white border-none rounded-none px-5 w-[200px] h-14 text-lg" size="large">
-                Call us Now <FaArrowRight className="animate-pulse"/>
-            </Button>
+            <button className="mt-5 bg-primary text-white border-none rounded-none px-5 w-[200px] h-14 text-lg hover:bg-[#0099e6]">
+                <p className="flex justify-center items-center gap-2">Call us Now <FaArrowRight className="animate-pulse"/></p>
+            </button>
         </div>
     </section>
   )

@@ -11,9 +11,9 @@ export default function ValueOffer({image, title, description, order, button}) {
         <div className="flex justify-center items-center md:items-start md:justify-start gap-5 flex-col">
             <h1 className="font-bold text-xl md:text-3xl text-[#222]">{title}</h1>
             <p className="text-[#777] text-lg">{description}</p>
-            {button && <Button className="bg-primary rounded-none outline-none w-[200px] h-12 text-white">
+            {button && <button className="bg-primary rounded-none outline-none w-[200px] h-12 text-white hover:bg-[#0099e6]">
                 {button}
-                    </Button>}
+                    </button>}
         </div>
         </Col>
     </Row>
