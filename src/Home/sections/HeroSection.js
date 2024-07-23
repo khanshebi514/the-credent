@@ -41,7 +41,7 @@ export default function Hero() {
           Register With Top Insurance Companies with Help of {" "}
           <span className="font-shadow text-[31px]">The  Credentialing</span>{" "}
         </h2>
-        <button className="bg-[#222] text-white border-none hero mt-5 px-2 py-3 md:mt-0 rounded-md hover:bg-[#333]">
+        <button className="bg-[#222] text-white border-none hero mt-5 px-4 py-3 md:mt-0 rounded-md hover:bg-[#333] text-nowrap">
           Get Started Now
         </button>
         </div>

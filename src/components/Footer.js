@@ -8,16 +8,16 @@ import {FaAngleRight} from "react-icons/fa6";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#222] w-full">
-        <div className="max-w-[1280px] m-auto flex flex-col md:flex-row gap-5 md:gap-0 justify-between items-center p-[60px]">
-            <div className="text-area w-[300px]">
-                <h3 className="font-bold text-[11px] text-white mt-2">NEWSLETTER</h3>
-               <p className="text-xs text-gray-500 mt-3">
+    <footer className="bg-[#212529] w-full">
+        <div className="max-w-[1200px] m-auto flex flex-col md:flex-row gap-5 md:gap-0 justify-between items-center py-[80px] px-[20px] text-[.8em]">
+            <div className="text-area w-[310px] sm:w-[330px]">
+                <h3 className="font-bold text-white mt-2">NEWSLETTER</h3>
+               <p className=" text-gray-500 mt-3">
                Discover the world of technology with our most recent credentialing service innovations and regular email updates. Get our newsletter by subscribing now!
                </p>
                <div className="flex justify-center items-center mt-5">
-               <Input placeholder="Email address " variant="borderless" className="rounded-l-full py-2 px-3 bg-white outline-none"/>
-               <Button className="w-7 rounded-r-full h-[38px]"><p className="font-bold text-sm hover:border-none">Go!</p></Button>
+               <Input placeholder="Email address " variant="borderless" className="rounded-l-full py-3 px-3 bg-white outline-none"/>
+               <button className="rounded-r-full h-[46px] p-2 bg-white border-l border-gray-200 "><p className="font-bold text-sm">Go!</p></button>
                </div>
 
                
@@ -56,8 +56,8 @@ export default function Footer() {
 
             
         </div>
-        <div className="bg-black ">
-         <div className="max-w-[1280px] m-auto text-white flex justify-center md:justify-between items-center gap-5 text-xs flex-wrap p-5">
+        <div className="bg-[#16181B] ">
+         <div className="max-w-[1200px] m-auto text-white flex justify-center md:justify-between items-center gap-5 text-xs flex-wrap p-5">
         
             <Image src="/images/logo-white.png" alt="" width={250}/>
            

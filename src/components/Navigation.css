@@ -62,3 +62,9 @@
     justify-content: end;
     border: none !important;
 }
+.custum_menu li::after{
+    border: none !important;
+    content: none !important;
+    inset-inline: 0px !important;
+   
+}
