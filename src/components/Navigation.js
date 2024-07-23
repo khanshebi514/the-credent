@@ -23,7 +23,7 @@ export default function Navigation() {
       </div>
 
       <div className="hidden lg:block w-[550px]">
-      <Menu selectedKeys={1} mode="horizontal" items={MENU_ITEM} className="custum_menu uppercase " />
+      <Menu mode="horizontal" items={MENU_ITEM} className="custum_menu uppercase " />
         {/* <Menu items={MENU_ITEM} mode="horizontal" className=" w-full custum_menu" selectedKeys={'1'} /> */}
       </div>
 
