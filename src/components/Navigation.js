@@ -18,7 +18,7 @@ export default function Navigation() {
   return (
     <header className="flex justify-center items-center gap-2 h-[85px] p-2 ">
 
-      <div className="mr-10 md:mr-16 w-[150px] md:w-[200px]">
+      <div className="mr-5 md:mr-16 w-[150] md:w-[200px] ">
         <Image src='./images/cred-logo.svg' alt="lgo image" height={70} width={200}/>
       </div>
 
@@ -39,10 +39,10 @@ export default function Navigation() {
           Sign In
         </button>
         <button className="rounded-[5px] text-white px-[14px] py-[9px] bg-primary text-sm font-[500] text-nowrap hover:bg-[#00a1f2] block lg:hidden"> 
-        {mobileMenu ? <RxCross2 onClick={()=>{setMobileMenu(prev=>!prev)}}/> : <LuMenu onClick={()=>{setMobileMenu(prev=>!prev)}}/> } 
+        {mobileMenu ? <RxCross2 size={16} className="text-white" onClick={()=>{setMobileMenu(false)}}/> : <LuMenu size={16} className="text-white" onClick={()=>{setMobileMenu(true)}}/> } 
         </button>
 
-        <div className=" absolute top-12 right-0 w-[300px] ">
+        <div className=" absolute top-12 right-0 w-[300px] z-10 ">
         {mobileMenu && <Menu items={MENU_ITEM} mode="inline"/>} 
         </div>
         

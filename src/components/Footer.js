@@ -9,14 +9,14 @@ import {FaAngleRight} from "react-icons/fa6";
 export default function Footer() {
   return (
     <footer className="bg-[#212529] w-full">
-        <div className="max-w-[1200px] m-auto flex flex-col md:flex-row gap-5 md:gap-0 justify-between items-center py-[80px] px-[20px] text-[.8em]">
-            <div className="text-area w-[310px] sm:w-[330px]">
+        <div className="max-w-[1200px] m-auto flex flex-col md:flex-row gap-5 md:gap-0 justify-around lg:justify-between items-start py-[80px] px-[20px] text-[.8em]">
+            <div className="text-area w-[80vw] sm:w-[70vw] md:w-[33%]">
                 <h3 className="font-bold text-white mt-2">NEWSLETTER</h3>
-               <p className=" text-gray-500 mt-3">
+               <p className=" text-gray-500 mt-3 leading-7">
                Discover the world of technology with our most recent credentialing service innovations and regular email updates. Get our newsletter by subscribing now!
                </p>
                <div className="flex justify-center items-center mt-5">
-               <Input placeholder="Email address " variant="borderless" className="rounded-l-full py-3 px-3 bg-white outline-none"/>
+               <Input placeholder="Email address " variant="borderless" className="rounded-l-full py-3 px-3 bg-white outline-none active:bg-slate-500"/>
                <button className="rounded-r-full h-[46px] p-2 bg-white border-l border-gray-200 "><p className="font-bold text-sm">Go!</p></button>
                </div>
 

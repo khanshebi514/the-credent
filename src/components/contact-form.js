@@ -10,7 +10,7 @@ export default function ContactForm() {
             <div className="flex justify-center items-center flex-col">
               <h2 className="text-[1.8em] font-bold text-white">Get 
                 In Touch</h2>
-              <p className="font-poppins text-sm text-gray-400 my-5 text-wrap p-2 text-center">
+              <p className="font-poppins text-sm text-gray-400 mb-5 text-wrap p-2 text-center">
                 Let's start talking about getting you credentialed
               </p>
 
@@ -45,7 +45,7 @@ export default function ContactForm() {
                   className="rounded-[5px] font-poppins px-5 py-2 h-32 outline-none w-[90%] m-auto"
                   placeholder="Message"
                 />
-                <button className="border-none rounded-[5px] bg-[#222] hover:bg-[#333] h-12 text-white w-[90%] m-auto">
+                <button className="border-none rounded-[5px] bg-[#212529] hover:bg-[#32383e] h-14 font-semibold text-[0.8rem] text-white w-[90%] m-auto">
                   SUBMIT
                 </button>
               </div>
