@@ -11,7 +11,7 @@ export default function CredCard({image, title, point, background='white'}) {
     <div className="w-full md:w-[300px] flex justify-center items-center">
         <Image src={image} alt="back image" width={300} height={300}/>
     </div>
-    <div className="space-y-3 w-full md:w-[500px] md:text-start py-2 px-5">
+    <div className="space-y-3 w-full md:w-[500px] md:text-start py-2 px-5 ">
         {title ? <h1 className="text-[25px] md:text-[35px] text-[#222] font-bold my-3">{title}</h1> :<h1 className="text-[25px] md:text-[35px] text-[#222] my-3"><span className="font-bold">When Do</span> You need Credentialing Services</h1> }
 
         {/* {point.forEach(element =>

@@ -8,9 +8,10 @@ export default function ContactForm() {
   return (
     <Form className="bg-primary px-2 py-10 rounded-md w-[80vw] sm:w-[70vw] md:w-[60vw] lg:w-[450px] xl:w-[500px]">
             <div className="flex justify-center items-center flex-col">
-              <h2 className="text-[1.8em] font-bold text-white">Get in Touch</h2>
-              <p className="font-poppins text-xs text-gray-400 my-5 text-wrap p-2 text-center">
-                Lets Start Talking About getting You Credentialed
+              <h2 className="text-[1.8em] font-bold text-white">Get 
+                In Touch</h2>
+              <p className="font-poppins text-sm text-gray-400 my-5 text-wrap p-2 text-center">
+                Let's start talking about getting you credentialed
               </p>
 
               <div className="flex flex-col gap-3 w-[100%]">
@@ -45,7 +46,7 @@ export default function ContactForm() {
                   placeholder="Message"
                 />
                 <button className="border-none rounded-[5px] bg-[#222] hover:bg-[#333] h-12 text-white w-[90%] m-auto">
-                  Submit
+                  SUBMIT
                 </button>
               </div>
             </div>

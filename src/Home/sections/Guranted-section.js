@@ -7,11 +7,11 @@ export default function GurantedSection() {
     backgroundPosition:'center',
     backgroundSize:'contain',
     backgroundRepeat:'no-repeat',
-    backgroundPositionY:'300px'
+    backgroundPositionY:'250px'
      
  }}
    >
-    <div className="text-center mt-[20px] p-5 w-[80%] ">
+    <div className="text-center mt-[20px] p-5 w-[80%]">
     <h1 className="font-bold text-black text-3xl my-8">
     Credentialing Excellence Guaranteed
     </h1>
@@ -48,7 +48,7 @@ export default function GurantedSection() {
 
         <div className="flex justify-center items-center flex-col gap-5">
         <div className="assessment w-[310px] rounded-full border-[1px] p-[2px] border-gray-400 flex justify-center items-center">
-            <Image src={'/images/Ellipse-7.png'} alt="speciality image" width={350} height={350} className="animate-bounce"/>
+            <Image src={'/images/Ellipse-7.png'} alt="speciality image" width={350} height={350} className="fade-rotation"/>
         </div> 
         <p className="font-shadow text-primary text-2xl md:text-3xl">OUR CLIENTS</p>
         </div>

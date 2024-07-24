@@ -46,3 +46,37 @@
   } */
 }
 
+.fade-left{
+  transform: translateX(-150%);
+  animation: about-fade-left 1s ease-in-out forwards;
+}
+
+@keyframes about-fade-left {
+  100%{
+    transform: translateX(0%)
+  }
+}
+
+.fade-right{
+  transform: translateX(150%);
+  animation: about-fade-right 1s ease-in-out forwards;
+}
+
+@keyframes about-fade-right {
+
+  100%{
+    transform: translateX(0%)
+  }
+}
+
+.fade-rotation{
+  transform-style: preserve-3d;
+  transform: rotate3d(0deg);
+  animation: about-fade-rotate 1s ease-in-out infinite;
+}
+
+@keyframes about-fade-rotate {
+  100%{
+    transform: rotateY(360deg)
+  }
+}
