@@ -1,5 +1,6 @@
 
 import PartnerSlider from "@/components/partner-slider";
+import Credmethod from "@/Home/sections/Credmethod";
 import DontSettleOrdinary from "@/Home/sections/dont-settle-ordinary";
 import DosnDont from "@/Home/sections/DosnDonts";
 import GovtInsurance from "@/Home/sections/Govt-insurance";
@@ -18,6 +19,7 @@ export default function Home() {
     <Hero/>
     <GurantedSection/>
     <WhenCredentialing/>
+    <Credmethod/>
     <StremLiningCred/>
     <DosnDont/>
     <ServiceOffer/>

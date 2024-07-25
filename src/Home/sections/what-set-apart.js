@@ -84,8 +84,8 @@ export default function WhatSetApart() {
         </div>
         <div className="w-[90%] h-[1px] bg-gray-300 shadow-lg m-auto my-5 md:mb-[50px]"></div>
 
-        <div className="flex justify-center items-center gap-5 flex-col text-center py-3">
-          <h1 className="font-bold text-xl md:text-[1.7rem]">
+        <div className="flex justify-center items-center gap-5 flex-col text-center py-3  ">
+          <h1 className="font-bold text-[1.7rem] w-full sm:w-[70%] lg:w-full text-center leading-relaxed">
             We are not the only ones excited{" "}
             <span className="bg-primary p-2 text-white leading-normal">happy</span> about The
             Credentialing Services

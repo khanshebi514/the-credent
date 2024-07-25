@@ -4,7 +4,7 @@ import { WHEN_NEED_CREDENTIALING } from "@/constants";
 export default function WhenCredentialing() {
   
   return (
-    < CredCard  image={WHEN_NEED_CREDENTIALING.image} point={WHEN_NEED_CREDENTIALING.points} background={'#f2f2f2'}/>
+    <CredCard  image={WHEN_NEED_CREDENTIALING.image} point={WHEN_NEED_CREDENTIALING.points} background={'#f2f2f2'}/>
   )
 }
 

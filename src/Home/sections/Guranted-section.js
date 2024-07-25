@@ -40,7 +40,7 @@ export default function GurantedSection() {
        </div>
 
        <div className="flex justify-center items-center flex-col gap-5">
-       <div className="assessment w-[150px] rounded-full border-[1px] p-[4px] border-gray-300 flex justify-center items-center">
+       <div className="assessment w-[145px] rounded-full border-[1px] p-[4px] border-gray-300 flex justify-center items-center">
             <Image src={'/images/Ellipse-5.png'} alt="speciality image" width={150} height={150}/>
         </div>
         <p className="font-shadow text-primary text-2xl">VALIDATION</p>
@@ -48,7 +48,7 @@ export default function GurantedSection() {
         
 
         <div className="flex justify-center items-center flex-col gap-5">
-        <div className="assessment w-[310px] rounded-full border-[1px] p-[4px] border-gray-300 flex justify-center items-center">
+        <div className="assessment w-[338px] rounded-full border-[1px] p-[4px] bg-white border-gray-300 flex justify-center items-center">
             <Image src={'/images/Ellipse-7.png'} alt="speciality image" width={350} height={350} className="fade-rotation"/>
         </div> 
         <p className="font-shadow text-primary text-2xl">OUR CLIENTS</p>

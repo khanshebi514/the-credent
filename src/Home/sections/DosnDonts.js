@@ -13,7 +13,6 @@ export default function DosnDont() {
   const order_1 = width < 1000 ? 2 : 1;
   const order_2 = width < 1000 ? 1 : 2;
 
-  console.log(width);
   return (
     <section className=" bg-slate-200">
       <div className="flex flex-col md:flex-row justify-evenly items-center max-w-[1200px] m-auto py-[30px] md:py-[50px]">

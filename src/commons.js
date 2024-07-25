@@ -1,6 +1,7 @@
 'use client'
 import { useEffect, useState } from "react";
 export const useGetWidth = () => {
+
   const [width, setWidth] = useState(window.innerWidth);
 
   useEffect(() => {
