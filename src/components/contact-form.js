@@ -11,7 +11,7 @@ export default function ContactForm() {
               <h2 className="text-[1.8em] font-bold text-white">Get 
                 In Touch</h2>
               <p className="font-poppins text-sm text-gray-400 mb-5 text-wrap p-2 text-center">
-                Let's start talking about getting you credentialed
+                Lets start talking about getting you credentialed
               </p>
 
               <div className="flex flex-col gap-3 w-[100%]">
