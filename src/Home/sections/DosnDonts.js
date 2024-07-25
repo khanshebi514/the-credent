@@ -9,7 +9,7 @@ import { Col, Row } from "antd";
 import ScreenWidth from "@/commons";
 
 export default function DosnDont() {
- const width = ScreenWidth()
+ const {width} = ScreenWidth()
   const order_1 = width < 1000 ? 2 : 1;
   const order_2 = width < 1000 ? 1 : 2;
 
@@ -136,8 +136,9 @@ export default function DosnDont() {
                 src={"/images/Group-17.png"}
                 alt="this is image"
                 objectFit="cover"
-                width={width}
+                width={1300}
                 height={400}
+ 
               />
             </Col>
           </Row>

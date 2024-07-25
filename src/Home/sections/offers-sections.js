@@ -5,7 +5,7 @@ import ValueOffer from "@/components/value-offer";
 import { OFFERS } from "@/constants";
 
 export default function OffersSections() {
-  const width= ScreenWidth()
+  const {width}= ScreenWidth()
   const orderData =  width < 760 ? 0 : 1
  
 const data = OFFERS
