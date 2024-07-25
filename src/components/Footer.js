@@ -11,7 +11,7 @@ export default function Footer() {
     <footer className="bg-[#212529] w-full relative">
         
         <div className="max-w-[1200px] m-auto flex flex-col md:flex-row gap-5 md:gap-0 justify-around lg:justify-between items-start py-[80px] px-[20px] text-[.8em]">
-        <div className="bg-primary w-[150px] flex justify-center items-center h-[40px] absolute -top-5 left-[30px] md:left-[50px] lg:left-[90px]  font-shadow text-[23px] text-white before:w-[20px] before:h-[20px] before:bg-[#00aaff] before:absolute before:top-0 before:-left-5">Get in Touch</div>
+        <div className="bg-primary w-[150px] flex justify-center items-center h-[40px] absolute -top-4 left-[30px] md:left-[50px] lg:left-[90px]  font-shadow text-[23px] text-white ">Get in Touch</div>
             
             <div className="text-area w-[80vw] sm:w-[70vw] md:w-[33%]">
                 <h3 className="font-bold text-white mt-2 text-[1em]">NEWSLETTER</h3>
