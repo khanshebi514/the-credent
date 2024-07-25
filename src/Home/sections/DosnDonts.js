@@ -9,10 +9,11 @@ import { Col, Row } from "antd";
 import ScreenWidth from "@/commons";
 
 export default function DosnDont() {
- const {width} = ScreenWidth()
+ const width = ScreenWidth()
   const order_1 = width < 1000 ? 2 : 1;
   const order_2 = width < 1000 ? 1 : 2;
 
+  console.log(width);
   return (
     <section className=" bg-slate-200">
       <div className="flex flex-col md:flex-row justify-evenly items-center max-w-[1200px] m-auto py-[30px] md:py-[50px]">
@@ -30,7 +31,7 @@ export default function DosnDont() {
                 className="bg-white flex justify-center px-5 py-14"
               >
                 <div className="w-[85%] ">
-                  <h1 className="font-bold text-3xl md:text-5xl mr-16 mb-2">
+                  <h1 className="font-bold text-xl md:text-5xl lg:mr-16 mb-2">
                     DOs & DONT
                   </h1>
                 </div>

@@ -13,8 +13,8 @@ export default function StreamLining() {
         <Image src={STREAMLINE_CREDENTILING.image} alt="when need to cred" width={1380} height={400} />
       </Col>
 
-      <Col span={20} md={12} className="ml-0 md:ml-16 p-10 md:p-0">
-      <h1 className="text-[#222] mb-5 font-bold text-[32px]">
+      <Col span={20} md={12} className="ml-0 md:ml-16 p-5 md:p-3">
+      <h1 className="text-[#222] mb-5 font-bold text-[30px]">
          {STREAMLINE_CREDENTILING.title}
             </h1>
 

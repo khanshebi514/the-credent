@@ -6,7 +6,7 @@ import './contact-form.css'
 
 export default function ContactForm() {
   return (
-    <Form className="bg-primary px-2 py-10 rounded-md w-[80vw] sm:w-[70vw] md:w-[60vw] lg:w-[450px] xl:w-[500px]">
+    <Form className="bg-primary px-2 py-10 rounded-md w-[80vw] sm:w-[80vw] md:w-[60vw] lg:w-[450px] xl:w-[500px]">
             <div className="flex justify-center items-center flex-col">
               <h2 className="text-[1.8em] font-bold text-white">Get 
                 In Touch</h2>

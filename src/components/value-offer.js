@@ -9,7 +9,7 @@ export default function ValueOffer({image, title, description, order, button}) {
        <Row className="max-w-[1280px] m-auto my-0 md:my-[100px] gap-5" align={'middle'} justify={'space-around'}>
         <Col order={order} span={24} md={6} className="flex justify-center items-cente">
         <div className="w-[80%] md:w-full">
-        <Image src={image} alt="this is image" width={700} height={400}/>
+        <Image src={image} alt="this is image" width={350} height={400}/>
         </div>
         </Col>
         <Col span={24} md={10} className="">

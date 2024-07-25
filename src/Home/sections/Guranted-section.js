@@ -11,7 +11,7 @@ export default function GurantedSection() {
      
  }}
    >
-    <div className="text-center mt-[20px] w-[80%] p-[20px]">
+    <div className="text-center mt-[20px] w-[90%] p-[20px]">
     <h1 className="font-bold text-black text-3xl my-8">
     Credentialing Excellence Guaranteed
     </h1>
