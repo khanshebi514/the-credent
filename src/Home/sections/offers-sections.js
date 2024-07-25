@@ -1,10 +1,11 @@
 'use client'
-import { useGetWidth } from "@/commons";
+
+import ScreenWidth from "@/commons";
 import ValueOffer from "@/components/value-offer";
 import { OFFERS } from "@/constants";
 
 export default function OffersSections() {
-  const {width}= useGetWidth()
+  const width= ScreenWidth()
   const orderData =  width < 760 ? 0 : 1
  
 const data = OFFERS

@@ -6,10 +6,10 @@ import { RxCross2 } from "react-icons/rx";
 import ListItem from "./listItem";
 import { Col, Row } from "antd";
 
-import { useGetWidth } from "@/commons";
+import ScreenWidth from "@/commons";
 
 export default function DosnDont() {
- const {width} = useGetWidth()
+ const width = ScreenWidth()
   const order_1 = width < 1000 ? 2 : 1;
   const order_2 = width < 1000 ? 1 : 2;
 
