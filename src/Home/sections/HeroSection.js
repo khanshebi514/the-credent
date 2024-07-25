@@ -7,13 +7,16 @@ export default function Hero() {
       <section
         style={{
           backgroundImage:
-            "linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/images/credit-2.png')",
+            "url('/images/credit-2.png')",
           backgroundPosition: "center",
           backgroundSize: "cover",
           objectFit: "cover",
         }}
-        className="p-2 pb-12"
+        className="p-2 pb-12 relative"
       >
+        <div className="absolute bg-[#2125298f] top-0 left-0 w-full h-full">
+
+        </div>
         <div className="mt-[50px] md:mt-[200px] grid grid-cols-1 lg:grid-cols-2 align-middle gap-5 h-full max-w-[1200px] m-auto">
           <div className="columns-1 text-section text-center my-5 place-self-center font-poppins mt-[100px] md:mt-0 w-full fade-left">
             <span className="flex justify-center items-center gap-2">
