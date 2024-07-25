@@ -28,10 +28,10 @@ export default function Navigation() {
       </div>
 
       <div className="flex justify-center items-center gap-3">
-        <FaFacebookF  size={25} className="bg-white p-1 rounded-full cursor-pointer shadow-lg hover:bg-primary hover:text-white text-black"/>
-        <FaXTwitter size={25}  className="bg-white p-1 rounded-full cursor-pointer shadow-lg hover:bg-primary hover:text-white text-black"/>
-        <FaLinkedinIn size={25}  className="bg-white p-1 rounded-full cursor-pointer shadow-lg hover:bg-primary hover:text-white text-black"/>
-        <FaInstagram size={25}  className="bg-white p-1 rounded-full cursor-pointer shadow-lg hover:bg-primary hover:text-white text-black"/>
+        <FaFacebookF  size={24} className="bg-white rounded-full cursor-pointer card-shadow p-1  hover:bg-primary hover:text-white text-black"/>
+        <FaXTwitter size={24}  className="bg-white  rounded-full cursor-pointer card-shadow p-1  hover:bg-primary hover:text-white text-black"/>
+        <FaLinkedinIn size={24}  className="bg-white rounded-full cursor-pointer card-shadow p-1  hover:bg-primary hover:text-white text-black"/>
+        <FaInstagram size={24}  className="bg-white  rounded-full cursor-pointer card-shadow p-1  hover:bg-primary hover:text-white text-black"/>
       </div>
 
       <div className="ml-0 md:ml-10 relative">   

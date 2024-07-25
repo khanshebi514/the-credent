@@ -20,7 +20,7 @@ export default function ScreenWidth() {
         window.removeEventListener("resize", handleResize);
       }
     };
-  }, []);
+  }, [width]);
 
   return width;
 }

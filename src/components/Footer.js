@@ -8,10 +8,13 @@ import {FaAngleRight} from "react-icons/fa6";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#212529] w-full">
+    <footer className="bg-[#212529] w-full relative">
+        
         <div className="max-w-[1200px] m-auto flex flex-col md:flex-row gap-5 md:gap-0 justify-around lg:justify-between items-start py-[80px] px-[20px] text-[.8em]">
+        <div className="bg-primary w-[150px] flex justify-center items-center h-[40px] absolute -top-5 left-[30px] md:left-[50px] lg:left-[90px]  font-shadow text-[23px] text-white before:w-[20px] before:h-[20px] before:bg-[#00aaff] before:absolute before:top-0 before:-left-5">Get in Touch</div>
+            
             <div className="text-area w-[80vw] sm:w-[70vw] md:w-[33%]">
-                <h3 className="font-bold text-white mt-2">NEWSLETTER</h3>
+                <h3 className="font-bold text-white mt-2 text-[1em]">NEWSLETTER</h3>
                <p className=" text-gray-500 mt-3 leading-7">
                Discover the world of technology with our most recent credentialing service innovations and regular email updates. Get our newsletter by subscribing now!
                </p>
@@ -25,7 +28,7 @@ export default function Footer() {
             </div>
 
             <div className="text-area w-[300px]">
-                <h3 className="font-bold text-[11px] md:text-[12px] text-white">CONTACT US</h3>
+                <h3 className="font-bold text-[11px] md:text-[1em] text-white">CONTACT Us</h3>
                 <div className="mt-5 text-white space-y-3">
                 <ListItem 
                 iconURL={<TiLocation 
