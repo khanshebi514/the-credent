@@ -16,7 +16,7 @@ export default function Navigation() {
   const [mobileMenu, setMobileMenu] = useState(false)
 
   return (
-    <header className="flex justify-center items-center gap-2 h-[85px] p-2 ">
+    <header className="flex justify-center items-center gap-2 h-[85px] p-2 fixed w-full z-10 bg-white card-shadow">
 
       <div className="mr-5 md:mr-16 w-[150] md:w-[200px] ">
         <Image src='./images/cred-logo.svg' alt="lgo image" height={70} width={200}/>
@@ -35,7 +35,7 @@ export default function Navigation() {
       </div>
 
       <div className="ml-0 md:ml-10 relative">   
-        <button className="rounded-[5px] text-white px-[14px] py-[9px] bg-primary text-sm font-[500] text-nowrap hover:bg-[#00a1f2] hidden lg:block"> 
+        <button className="rounded-[5px] text-white px-[14px] py-[9px] bg-primary text-sm font-[500] text-nowrap hover:bg-[#00a1f2] hidden lg:block "> 
           Sign In
         </button>
         <button className="rounded-[5px] text-white px-[14px] py-[9px] bg-primary text-sm font-[500] text-nowrap hover:bg-[#00a1f2] block lg:hidden"> 
