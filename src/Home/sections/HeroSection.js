@@ -14,7 +14,7 @@ export default function Hero() {
         }}
         className="p-2 pb-12"
       >
-        <div className="md:mt-[100px] grid grid-cols-1 lg:grid-cols-2 align-middle gap-5 h-full max-w-[1200px] m-auto">
+        <div className="mt-[50px] md:mt-[200px] grid grid-cols-1 lg:grid-cols-2 align-middle gap-5 h-full max-w-[1200px] m-auto">
           <div className="columns-1 text-section text-center my-5 place-self-center font-poppins mt-[100px] md:mt-0 w-full fade-left">
             <span className="flex justify-center items-center gap-2">
               <Image
