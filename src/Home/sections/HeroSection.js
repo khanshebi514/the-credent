@@ -26,7 +26,7 @@ export default function Hero() {
                 width={40}
                 height={10}
               />
-              <h2 className="font-bold text-lg md:text-xl text-[#ecedef] font-poppins">
+              <h2 className="font-bold text-xl text-[#ecedef] font-poppins">
                 WANT TO GET YOUR PRACTICE CREDENTIALED?
               </h2>
               <Image
