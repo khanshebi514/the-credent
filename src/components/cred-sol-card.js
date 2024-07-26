@@ -39,9 +39,9 @@ export default function CredSolCard({
           className="ml-0 md:ml-16 p-10 md:p-0"
         >
           {title ? (
-            <h1 className="text-[#222] mb-5 font-[800] text-[36px]">{title}</h1>
+            <h1 className="text-[#222] mb-5 font-[800] text-[36px] ml-2">{title}</h1>
           ) : (
-            <h1 className="text-[28px] text-[#222] mb-5 font-[400]">
+            <h1 className="text-[28px] text-[#222] mb-5 font-[400] ml-2">
               <span className="font-[800]">When Do</span> You need Credentialing
               Services
             </h1>

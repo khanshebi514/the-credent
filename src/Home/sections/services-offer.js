@@ -20,7 +20,7 @@ export default function ServiceOffer() {
     )}
         
        </div>  
-       <button className="w-[150px] p-4 rounded-none bg-primary text-white ml-[10px] sm:ml-[50px] md:ml-[80px] lg:ml-[125px] mt-3 hover:bg-[#0099e6]">
+       <button className="w-[150px] p-4 rounded-none bg-primary text-white  mt-5 hover:bg-[#0099e6]">
             Learn More
         </button>
         </div>
