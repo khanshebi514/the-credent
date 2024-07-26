@@ -5,7 +5,7 @@ export default function GovtInsurance() {
     const services = WEB_CONTENT[1].services
   return (
     <section className="bg-white">
-    <div className="flex justify-stretch max-w-[1280px] mt-10 flex-col gap-10">
+    <div className="flex justify-stretch max-w-[1280px] m-auto mt-10 flex-col gap-10">
         
         <div className="text-center space-y-5 w-full md:w-[750px] font-poppins m-auto p-7">
         <h1 className="font-bold text-[28px] md:text-[35px] font-poppins">Government Insurance Credentialing</h1>
