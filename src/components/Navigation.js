@@ -18,8 +18,8 @@ export default function Navigation() {
   return (
     <header className="flex justify-center items-center gap-2 h-[85px] p-2 fixed w-full z-10 bg-white card-shadow">
 
-      <div className="mr-5 md:mr-16 w-[150] md:w-[200px] ">
-        <Image src='./images/cred-logo.svg' alt="lgo image" height={70} width={200}/>
+      <div className="mr-5 md:mr-16 w-[130] md:w-[250px] ">
+        <Image src='./images/cred-logo.svg' alt="lgo image" height={80} width={300}/>
       </div>
 
       <div className="hidden lg:block w-[550px]">

@@ -29,7 +29,7 @@ export default function Footer() {
 
             <div className="text-area w-[300px]">
                 <h3 className="font-bold text-[11px] md:text-[1em] text-white">CONTACT Us</h3>
-                <div className="mt-5 text-white space-y-3">
+                <div className="mt-5 text-white space-y-3 ">
                 <ListItem 
                 iconURL={<TiLocation 
                 className="text-primary mt-1 mr-3"/>} 
@@ -59,23 +59,23 @@ export default function Footer() {
 
             
         </div>
-        <div className="bg-[#16181B] ">
-         <div className="max-w-[1200px] m-auto text-white flex justify-center md:justify-between items-center gap-5 text-xs flex-wrap p-5">
+        <div className="bg-[#16181B] w-full">
+         <div className="max-w-[1200px] m-auto text-white flex justify-center md:justify-between items-center gap-3 text-xs flex-wrap p-5 flex-1">
         
             <Image src="/images/logo-white.png" alt="" width={250}/>
            
 
            
-             <p className="text-gray-400">&copy; Copyright 2024. All Rights Reserved.</p>
+             <p className="text-gray-400 w-fit">&copy; Copyright 2024. All Rights Reserved.</p>
           
 
          
-            <div className="flex justify-center items-center gap-5 flex-wrap">
-                <ListItem iconURL={<FaAngleRight className="mt-[1px]"/>} text={<Link className="hover:text-white text-gray-400" href={'/faqs'}>FAQs</Link>}/>
-                <ListItem iconURL={<FaAngleRight className="mt-[1px]"/>} text={<Link className="hover:text-white text-gray-400" href={'/sitemap'}>Sitemap</Link>}/>
-                <ListItem iconURL={<FaAngleRight className="mt-[1px]"/>} text={<Link className="hover:text-white text-gray-400" href={'/contact-us'}>Contact Us</Link>}/>
-                <ListItem iconURL={<FaAngleRight className="mt-[1px]"/>} text={<Link className="hover:text-white text-gray-400" href={'/privacy-policy'}>Privacy Policy</Link>}/>
-                <ListItem iconURL={<FaAngleRight className="mt-[1px]"/>} text={<Link className="hover:text-white text-gray-400" href={'/terms-conditon'}>Terms Condition</Link>}/>
+            <div className="flex justify-center items-center gap-5 text-[11px]">
+                <ListItem iconURL={<FaAngleRight className="mt-[2px]"/>} text={<Link className="hover:text-white text-gray-400" href={'/faqs'}>FAQs</Link>}/>
+                <ListItem iconURL={<FaAngleRight className="mt-[2px]"/>} text={<Link className="hover:text-white text-gray-400" href={'/sitemap'}>Blog</Link>}/>
+                <ListItem iconURL={<FaAngleRight className="mt-[2px]"/>} text={<Link className="hover:text-white text-gray-400" href={'/contact-us'}>Sitemap</Link>}/>
+                <ListItem iconURL={<FaAngleRight className="mt-[2px]"/>} text={<Link className="hover:text-white text-gray-400 text-nowrap" href={'/privacy-policy '}>Contact Us</Link>}/>
+                <ListItem iconURL={<FaAngleRight className="mt-[2px]"/>} text={<Link className="hover:text-white text-gray-400 text-nowrap" href={'/terms-conditon'}>Privacy Policy</Link>}/>
             </div>
           
         </div>    

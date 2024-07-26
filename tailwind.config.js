@@ -14,6 +14,7 @@ module.exports = {
       fontFamily:{
         'poppins':"Poppins, sans-serif",
         'shadow' : "Shadows Into Light, cursive",
+        'ralway' : "Raleway, sans-serif"
       },
       colors:{
         "white" : "#FFFFFF",

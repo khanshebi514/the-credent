@@ -21,22 +21,22 @@ export default function DosnDont() {
           <Row
             className="w-full"
             align={"middle"}
-            justify={"space-around"}
+            justify={"space-between"}
             gutter={[0, 5]}
           >
             {/*-------------------------- first main column----------------------------- */}
-            <Col xs={20} lg={14}  order={width > 1000 ? 0 : 1}>
+            <Col xs={20} lg={15}  order={width > 1000 ? 0 : 1}>
               <Row
                 align={"middle"}
-                className="bg-white flex justify-center px-5 py-14"
+                className="bg-white flex justify-center py-14 w-full"
               >
-                <div className="w-[100%] text-start">
+                <div className="w-[80%] text-start">
                   <h1 className="font-bold !text-[32px] text-[#212529] md:text-5xl lg:mr-16 mb-2">
                     DOs & DONT
                   </h1>
                 </div>
                 <Col
-                  className="w-[300px] bg-white shadow-md py-3 h-[400px] "
+                  className="bg-white shadow-md py-3 h-[400px] "
                   sm={12}
                   md={10}
                   xs={20}
@@ -45,48 +45,21 @@ export default function DosnDont() {
                     <h1 className="info-text text-white !text-[20px]">DOs</h1>
                   </span>
 
-                  <div className="space-y-5 p-5">
-                    <ListItem
-                      iconURL={
-                        <IoIosCheckmark
-                          size={40}
-                          className="text-green-600 font-extrabold"
-                        />
-                      }
-                      text={"Master digital credentialing"}
-                    />
-                    <ListItem
-                      iconURL={
-                        <IoIosCheckmark
-                          size={40}
-                          className="text-green-600 font-extrabold"
-                        />
-                      }
-                      text={"Implement blockchain for secure"}
-                    />
-                    <ListItem
-                      iconURL={
-                        <IoIosCheckmark
-                          size={40}
-                          className="text-green-600 font-extrabold"
-                        />
-                      }
-                      text={"Leverage AI for document parsing"}
-                    />
-                    <ListItem
-                      iconURL={
-                        <IoIosCheckmark
-                          size={40}
-                          className="text-green-600 font-extrabold"
-                        />
-                      }
-                      text={"Prioritize cybersecurity vigilance"}
-                    />
-                  </div>
+                  <ul className="space-y-5 px-5 mt-5">
+
+                   <li  className="text-[16px] font-[400] flex justify-start text-start items-start gap-2 "> <span><IoIosCheckmark size={30} className="text-green-600"/></span> Master digital credentialing</li>
+
+                   <li  className="text-[16px] font-[400] flex justify-start items-start gap-2 "> <span><IoIosCheckmark size={30} className="text-green-600"/></span>Implement blockchain for secure</li>
+
+                   <li  className="text-[16px] font-[400] flex justify-start items-start gap-2"> <span><IoIosCheckmark size={30} className="text-green-600"/></span>Leverage AI for document parsing</li>
+
+                   <li  className="text-[16px] font-[400] flex justify-start items-start gap-2"> <span><IoIosCheckmark size={30} className="text-green-600"/></span>Prioritize cybersecurity vigilance</li>
+
+                 </ul>
                 </Col>
 
                 <Col
-                  className="w-[300px]  bg-white shadow-md py-3 h-[400px]"
+                  className="bg-white shadow-md py-3 h-[400px]"
                   sm={12}
                   md={10}
                   xs={20}
@@ -94,32 +67,17 @@ export default function DosnDont() {
                   <span className="bg-[#97643D] w-full h-16 flex justify-center items-center">
                     <h1 className="info-text text-white !text-[20px]">DONT</h1>
                   </span>
-                  <div className="space-y-5 p-5">
-                    <ListItem
-                      iconURL={
-                        <RxCross2  className="text-red-600 mt-1" style={{width:"20px !important"}} />
-                      }
-                      text={"Resist digital transformation"}
-                    />
-                    <ListItem
-                      iconURL={
-                        <RxCross2  className="text-red-600 mt-1" style={{width:"20px !important"}} />
-                      }
-                      text={"Underestimate data security"}
-                    />
-                    <ListItem
-                      iconURL={
-                        <RxCross2  className="text-red-600 mt-1" style={{width:"20px !important"}} />
-                      }
-                      text={"Rely solely on manual verification"}
-                    />
-                    <ListItem
-                      iconURL={
-                        <RxCross2  className="text-red-600 mt-1" style={{width:"20px !important"}} />
-                      }
-                      text={"Overlook compliance with healthcare IT standards"}
-                    />
-                  </div>
+                 <ul className="space-y-5 px-5 mt-5">
+
+                   <li  className="text-[16px] font-[400] flex justify-start text-start items-start gap-2 "> <span><RxCross2 size={20} className="text-red-600"/></span> Resist digital transformation</li>
+
+                   <li  className="text-[16px] font-[400] flex justify-start items-start gap-2 "> <span><RxCross2 size={20} className="text-red-600"/></span> Underestimate data security</li>
+
+                   <li  className="text-[16px] font-[400] flex justify-start items-start gap-2"> <span><RxCross2 size={20} className="text-red-600"/></span> Rely solely on manual verification</li>
+
+                   <li  className="text-[16px] font-[400] flex justify-start items-start gap-2"> <span><RxCross2 size={20} className="text-red-600"/></span> Overlook compliance with healthcare IT standards</li>
+
+                 </ul>
                 </Col>
               </Row>
             </Col>
