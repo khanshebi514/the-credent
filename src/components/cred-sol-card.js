@@ -39,9 +39,9 @@ export default function CredSolCard({
           className="ml-0 md:ml-16 p-10 md:p-0"
         >
           {title ? (
-            <h1 className="text-[#222] mb-5 font-[800] text-[30px]">{title}</h1>
+            <h1 className="text-[#222] mb-5 font-[800] text-[36px]">{title}</h1>
           ) : (
-            <h1 className="text-[25px] text-[#222] mb-5 font-[400]">
+            <h1 className="text-[28px] text-[#222] mb-5 font-[400]">
               <span className="font-[800]">When Do</span> You need Credentialing
               Services
             </h1>
@@ -51,37 +51,37 @@ export default function CredSolCard({
 
 
             <ListItem
-              className={"text-[#777] text-[16.5px]"}
+              className={"text-[#777] text-[20px] font-[400]"}
               iconURL={<FaCaretRight className="text-primary mt-1" />}
               text={points[0]}
             />
 
             <ListItem
-              className={"text-[#777] text-[16.5px]"}
+              className={"text-[#777] text-[20px] font-[400]"}
               iconURL={<FaCaretRight className="text-primary mt-1" />}
               text={points[1]}
             />
 
             <ListItem
-              className={"text-[#777] text-[16.5px]"}
+              className={"text-[#777] text-[20px] font-[400]"}
               iconURL={<FaCaretRight className="text-primary mt-1" />}
               text={points[2]}
             />
 
             <ListItem
-              className={"text-[#777] text-[16.5px]"}
+              className={"text-[#777] text-[20px] font-[400]"}
               iconURL={<FaCaretRight className="text-primary mt-1" />}
               text={points[3]}
             />
             <ListItem
-              className={"text-[#777] text-[16.5px]"}
+              className={"text-[#777] text-[20px] font-[400]"}
               iconURL={<FaCaretRight className="text-primary mt-1" />}
               text={points[4]}
             />
 
             {points[5] && (
               <ListItem
-                className={"text-[#777] text-lg"}
+                className={"text-[#777] text-[20px] font-[400]"}
                 iconURL={<FaCaretRight className="text-primary mt-1" />}
                 text={points[5]}
               />
