@@ -30,7 +30,7 @@ export default function DosnDont() {
                 align={"middle"}
                 className="bg-white flex justify-center py-14 w-full"
               >
-                <div className="w-[80%] text-start">
+                <div className="w-[90%] text-start">
                   <h1 className="font-bold !text-[32px] text-[#212529] md:text-5xl lg:mr-16 mb-2">
                     DOs & DONT
                   </h1>
@@ -38,22 +38,22 @@ export default function DosnDont() {
                 <Col
                   className="bg-white shadow-md py-3 h-[400px] "
                   sm={12}
-                  md={10}
+                  md={11}
                   xs={20}
                 >
-                  <span className="bg-primary w-full h-16 flex justify-center items-center">
+                  <span className="bg-primary w-full flex justify-center items-center px-[16px] py-[24px]">
                     <h1 className="info-text text-white !text-[20px]">DOs</h1>
                   </span>
 
-                  <ul className="space-y-5 px-5 mt-5">
+                  <ul className="space-y-6 px-5 mt-6">
 
-                   <li  className="text-[16px] font-[400] flex justify-start text-start items-start gap-2 "> <span><IoIosCheckmark size={30} className="text-green-600"/></span> Master digital credentialing</li>
+                   <li  className="text-[17px] font-[400] flex justify-start text-start items-start gap-2 "> <span><IoIosCheckmark size={30} className="text-green-600"/></span> Master digital credentialing</li>
 
-                   <li  className="text-[16px] font-[400] flex justify-start items-start gap-2 "> <span><IoIosCheckmark size={30} className="text-green-600"/></span>Implement blockchain for secure</li>
+                   <li  className="text-[17px] font-[400] flex justify-start items-start gap-2 "> <span><IoIosCheckmark size={30} className="text-green-600"/></span>Implement blockchain for secure</li>
 
-                   <li  className="text-[16px] font-[400] flex justify-start items-start gap-2"> <span><IoIosCheckmark size={30} className="text-green-600"/></span>Leverage AI for document parsing</li>
+                   <li  className="text-[17px] font-[400] flex justify-start items-start gap-2"> <span><IoIosCheckmark size={30} className="text-green-600"/></span>Leverage AI for document parsing</li>
 
-                   <li  className="text-[16px] font-[400] flex justify-start items-start gap-2"> <span><IoIosCheckmark size={30} className="text-green-600"/></span>Prioritize cybersecurity vigilance</li>
+                   <li  className="text-[17px] font-[400] flex justify-start items-start gap-2"> <span><IoIosCheckmark size={30} className="text-green-600"/></span>Prioritize cybersecurity vigilance</li>
 
                  </ul>
                 </Col>
@@ -61,21 +61,21 @@ export default function DosnDont() {
                 <Col
                   className="bg-white shadow-md py-3 h-[400px]"
                   sm={12}
-                  md={10}
+                  md={11}
                   xs={20}
                 >
-                  <span className="bg-[#97643D] w-full h-16 flex justify-center items-center">
+                  <span className="bg-[#97643D] w-full flex justify-center items-center px-[16px] py-[24px]">
                     <h1 className="info-text text-white !text-[20px]">DONT</h1>
                   </span>
-                 <ul className="space-y-5 px-5 mt-5">
+                 <ul className="space-y-6 px-5 mt-6">
 
-                   <li  className="text-[16px] font-[400] flex justify-start text-start items-start gap-2 "> <span><RxCross2 size={20} className="text-red-600"/></span> Resist digital transformation</li>
+                   <li  className="text-[17px] font-[400] flex justify-start text-start items-start gap-2 "> <span><RxCross2 size={20} className="text-red-600"/></span> Resist digital transformation</li>
 
-                   <li  className="text-[16px] font-[400] flex justify-start items-start gap-2 "> <span><RxCross2 size={20} className="text-red-600"/></span> Underestimate data security</li>
+                   <li  className="text-[17px] font-[400] flex justify-start items-start gap-2 "> <span><RxCross2 size={20} className="text-red-600"/></span> Underestimate data security</li>
 
-                   <li  className="text-[16px] font-[400] flex justify-start items-start gap-2"> <span><RxCross2 size={20} className="text-red-600"/></span> Rely solely on manual verification</li>
+                   <li  className="text-[17px] font-[400] flex justify-start items-start gap-2"> <span><RxCross2 size={20} className="text-red-600"/></span> Rely solely on manual verification</li>
 
-                   <li  className="text-[16px] font-[400] flex justify-start items-start gap-2"> <span><RxCross2 size={20} className="text-red-600"/></span> Overlook compliance with healthcare IT standards</li>
+                   <li  className="text-[17px] font-[400] flex justify-start items-start gap-2"> <span><RxCross2 size={20} className="text-red-600"/></span> Overlook compliance with healthcare IT standards</li>
 
                  </ul>
                 </Col>
