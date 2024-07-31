@@ -40,13 +40,13 @@ export const MENU_ITEM = [
         subItem:true,
         children:[
             {
-            label:'Commercial insurance Credentialing',
+            label:(<Link href={'services/commercial-insurance-credentialing'}>Commercial insurance Credentialing</Link>),
             key:'201',
             path:'commercial-insurance-credentialing',
             },
 
             {
-                label:'Goverment Insurance Credentialing',
+                label:(<Link href={'goverment-insurance-credentialing'}>Government insurance Credentialing</Link>),
                 key:'202',
                 path:'goverment-insurance-credentialing',
             },
@@ -218,3 +218,63 @@ export const OFFERS = [
 
     },
 ]
+
+export const COMM_INNSU_CRED = {
+    'intro':{
+        "title":"What is Commercial Insurance Credentialing?",
+        "description":"Commercial insurance credentialing is the process by which healthcare providers are approved to participate in a commercial insurance company's network. This process involves verifying the provider's education, training, experience, and licensure. It also involves ensuring that the provider meets the insurance company's quality standard."
+    },
+    'process':{
+        'process-1':{
+            '1':'Insurances',
+            '2':'Boarded',
+            '3':'Recommended',
+            '4':'Medical Oversight',
+            '5':'Disciplinary',
+            '6':'Affiliations',
+            '7':'Interview',
+        },
+
+      'process-2':{
+                '1':'Complete Application Forms',
+                '2':'Gather Required Documents',
+                '3':'Track Application Status',
+                '4':'Resolve Application Issues',
+                '5':'Provide Ongoing Support',
+      },
+
+      
+      'process-3':{
+        '1':'Maximize Reimbursements',
+        '2':'Access to a Larger Patient Base',
+        '3':'Increased Patient Trust',
+        '4':'Streamlined Billing and Claims',
+        '5':'Compliance and Quality',
+}
+    },
+    'services':[
+        {
+            'key':2001,
+            "title":'Medical Credentialing Services',
+            "description":"Our Medical Credentialing Services simplify and enhance the credentialing process for healthcare providers."
+        },
+
+        {
+            'key':2002,
+            "title":'Dental Credentialing Services',
+            "description":"Our Dental Credentialing Services leave no room for compromise and are committed to guaranteeing that dental professionals achieve effective and spotless credentialing."
+        },
+
+        {
+            'key':2003,
+            "title":'Vision Credentialing Services',
+            "description":"When it comes to vision care providers, precision is the most redeeming quality. We offer specialized expertise in securing your credentialing, leaving no room for oversight."
+        },
+
+       {
+            'key':2004,
+            "title":'Mental Credentialing Services',
+            "description":"Our team excels by living up to the unique demands of mental health credentialing, ensuring your practice is fully accredited and recognized."
+        }
+    ]
+}

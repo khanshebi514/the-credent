@@ -36,9 +36,9 @@
  }
 
 
-.ant-menu-horizontal a{
+.ant-menu-horizontal li a{
     border-bottom: none !important;
-    padding: 8px !important;
+    padding: 12px !important;
     margin: 0px !important;
     grid-area: 0px !important;
     
@@ -53,7 +53,7 @@
 }
 .custum_menu li { 
     /* padding: 0px 100px !important; */
-    padding-inline: 0px !important;
+    padding-inline: 2px !important;
     border: none;
 }
 .custum_menu{

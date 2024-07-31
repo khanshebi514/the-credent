@@ -3,7 +3,6 @@ import Image from "next/image";
 
 import { IoIosCheckmark } from "react-icons/io";
 import { RxCross2 } from "react-icons/rx";
-import ListItem from "./listItem";
 import { Col, Row } from "antd";
 
 import ScreenWidth from "@/commons";
@@ -36,7 +35,7 @@ export default function DosnDont() {
                   </h1>
                 </div>
                 <Col
-                  className="bg-white shadow-md py-3 h-[400px] "
+                  className="bg-white shadow-md py-3 h-[450px] "
                   sm={12}
                   md={11}
                   xs={20}
@@ -45,7 +44,7 @@ export default function DosnDont() {
                     <h1 className="info-text text-white !text-[20px]">DOs</h1>
                   </span>
 
-                  <ul className="space-y-6 px-5 mt-6">
+                  <ul className="space-y-6 px-7 mt-6">
 
                    <li  className="text-[17px] font-[400] flex justify-start text-start items-start gap-2 "> <span><IoIosCheckmark size={30} className="text-green-600"/></span> Master digital credentialing</li>
 
@@ -59,7 +58,7 @@ export default function DosnDont() {
                 </Col>
 
                 <Col
-                  className="bg-white shadow-md py-3 h-[400px]"
+                  className="bg-white shadow-md py-3 h-[450px]"
                   sm={12}
                   md={11}
                   xs={20}
@@ -67,7 +66,7 @@ export default function DosnDont() {
                   <span className="bg-[#97643D] w-full flex justify-center items-center px-[16px] py-[24px]">
                     <h1 className="info-text text-white !text-[20px]">DONT</h1>
                   </span>
-                 <ul className="space-y-6 px-5 mt-6">
+                 <ul className="space-y-6 px-10 mt-6">
 
                    <li  className="text-[17px] font-[400] flex justify-start text-start items-start gap-2 "> <span><RxCross2 size={20} className="text-red-600"/></span> Resist digital transformation</li>
 

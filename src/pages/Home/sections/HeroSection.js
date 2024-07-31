@@ -1,5 +1,4 @@
 import ContactForm from "@/components/contact-form";
-import { Button } from "antd";
 import Image from "next/image";
 export default function Hero() {
   return (
@@ -19,14 +18,14 @@ export default function Hero() {
         </div>
         <div className="mt-[50px] md:mt-[180px] grid grid-cols-1 lg:grid-cols-2 align-middle  h-full max-w-[1200px] m-auto">
           <div className="columns-1 text-section text-center my-5 place-self-center font-poppins mt-[100px] md:mt-0 w-full fade-left">
-            <span className="flex justify-center items-center gap-2">
+            <span className="flex justify-center items-center gap-4">
               <Image
                 src="/images/slide-title-border.png"
                 alt="heading border"
                 width={40}
                 height={10}
               />
-              <h2 className="font-bold text-xl text-[#ecedef] font-poppins ">
+              <h2 className="text-[21px] text-white font-poppins font-[500]">
                 WANT TO GET YOUR PRACTICE CREDENTIALED?
               </h2>
               <Image
@@ -36,14 +35,14 @@ export default function Hero() {
                 height={10}
               />
             </span>
-            <h1 className="text-5xl font-poppins font-extrabold text-[#ecedef] my-1 px-0 sm:px-14 md:px-18 lg:px-16 tracking-tighter">
+            <h1 className="text-[3.5rem] leading-[3.1rem] font-poppins font-extrabold text-white my-1 px-0 sm:px-14 md:px-18 lg:px-0 tracking-tighter mt-3">
               Take a closer look at our extensive set of services
             </h1>
-            <p className="font-poppins text-gray-400 mt-1 p-2">
+            <p className="font-poppins text-white mt-1 p-2 text-[1.2rem] opacity-[0.7] font-[300] ">
               Empowering Your Practice
             </p>
           </div>
-          <div className="form-section flex justify-center items-center place-self-center mr-[40px] mb-10 columns-lg fade-right">
+          <div className="form-section flex justify-center items-center ml-0 md:ml-[30px] mb-10 fade-right">
             <ContactForm />
           </div>
         </div>

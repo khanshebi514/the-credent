@@ -1,16 +1,14 @@
-
-import CredMethod from "@/Home/sections/Credmethod";
-import DontSettleOrdinary from "@/Home/sections/dont-settle-ordinary";
-import DosnDont from "@/Home/sections/DosnDonts";
-import GovtInsurance from "@/Home/sections/Govt-insurance";
-import GurantedSection from "@/Home/sections/Guranted-section";
-import Hero from "@/Home/sections/HeroSection";
-import OffersSections from "@/Home/sections/offers-sections";
-import ServiceOffer from "@/Home/sections/services-offer";
-import StreamLining from "@/Home/sections/StremLiningCred";
-import WhatSetApart from "@/Home/sections/what-set-apart";
-import WhenCredentialing from "@/Home/sections/WhenCredentialing";
-
+import CredMethod from "@/pages/Home/sections/Credmethod";
+import DontSettleOrdinary from "@/pages/Home/sections/dont-settle-ordinary";
+import DosnDont from "@/pages/Home/sections/DosnDonts";
+import GovtInsurance from "@/pages/Home/sections/Govt-insurance";
+import GurantedSection from "@/pages/Home/sections/Guranted-section";
+import Hero from "@/pages/Home/sections/HeroSection";
+import OffersSections from "@/pages/Home/sections/offers-sections";
+import ServiceOffer from "@/pages/Home/sections/services-offer";
+import StreamLining from "@/pages/Home/sections/StremLiningCred";
+import WhatSetApart from "@/pages/Home/sections/what-set-apart";
+import WhenCredentialing from "@/pages/Home/sections/WhenCredentialing";
 
 export default function Home() {
   return (

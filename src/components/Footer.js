@@ -1,10 +1,11 @@
-import ListItem from "@/Home/sections/listItem";
-import { Button, Col, Image, Input, Row } from "antd";
+
+import { Button, Col, Image, Input,} from "antd";
 import Link from "next/link";
 import { FaFacebook, FaInstagram, FaLinkedin, FaPhone, FaTwitter } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
 import { TiLocation } from "react-icons/ti";
 import {FaAngleRight} from "react-icons/fa6";
+import ListItem from "@/pages/Home/sections/listItem";
 
 export default function Footer() {
   return (
@@ -30,7 +31,7 @@ export default function Footer() {
             <div className="text-area w-[300px]">
                 <h3 className="font-bold text-[11px] md:text-[1em] text-white">CONTACT Us</h3>
                 <div className="mt-5 text-white space-y-3 ">
-                <ListItem 
+                <ListItem
                 iconURL={<TiLocation 
                 className="text-primary mt-1 mr-3"/>} 
                 text={'626 RXR Plaza Uniondale, NY 11556'} 
@@ -41,7 +42,7 @@ export default function Footer() {
                text={'(800) 500-8117'} 
                className={'text-[11px] md:text-[12px] text-gray-400'}/>
 
-               <ListItem 
+               <ListItem
                iconURL={<MdOutlineEmail 
                className="text-primary mt-1 mr-3"/>} 
                text={'info@thecredentialing.com'}
@@ -67,15 +68,13 @@ export default function Footer() {
 
            
              <p className="text-gray-400 w-fit">&copy; Copyright 2024. All Rights Reserved.</p>
-          
-
-         
-            <div className="flex justify-center items-center gap-5 text-[11px]">
-                <ListItem iconURL={<FaAngleRight className="mt-[2px]"/>} text={<Link className="hover:text-white text-gray-400" href={'/faqs'}>FAQs</Link>}/>
-                <ListItem iconURL={<FaAngleRight className="mt-[2px]"/>} text={<Link className="hover:text-white text-gray-400" href={'/sitemap'}>Blog</Link>}/>
-                <ListItem iconURL={<FaAngleRight className="mt-[2px]"/>} text={<Link className="hover:text-white text-gray-400" href={'/contact-us'}>Sitemap</Link>}/>
-                <ListItem iconURL={<FaAngleRight className="mt-[2px]"/>} text={<Link className="hover:text-white text-gray-400 text-nowrap" href={'/privacy-policy '}>Contact Us</Link>}/>
-                <ListItem iconURL={<FaAngleRight className="mt-[2px]"/>} text={<Link className="hover:text-white text-gray-400 text-nowrap" href={'/terms-conditon'}>Privacy Policy</Link>}/>
+ 
+            <div className="flex justify-center items-center gap-5 text-[11px] flex-wrap sm:flex-nowrap ">
+                <ListItem  iconURL={<FaAngleRight className="mt-[2px]"/>} text={<Link className="hover:text-white text-gray-400" href={'/faqs'}>FAQs</Link>}/>
+                <ListItem  iconURL={<FaAngleRight className="mt-[2px]"/>} text={<Link className="hover:text-white text-gray-400" href={'/sitemap'}>Blog</Link>}/>
+                <ListItem  iconURL={<FaAngleRight className="mt-[2px]"/>} text={<Link className="hover:text-white text-gray-400" href={'/contact-us'}>Sitemap</Link>}/>
+                <ListItem  iconURL={<FaAngleRight className="mt-[2px]"/>} text={<Link className="hover:text-white text-gray-400 text-nowrap" href={'/privacy-policy '}>Contact Us</Link>}/>
+                <ListItem  iconURL={<FaAngleRight className="mt-[2px]"/>} text={<Link className="hover:text-white text-gray-400 text-nowrap" href={'/terms-conditon'}>Privacy Policy</Link>}/>
             </div>
           
         </div>    

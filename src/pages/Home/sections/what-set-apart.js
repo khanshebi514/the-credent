@@ -1,5 +1,3 @@
-import PartnerSlider from "@/components/partner-slider";
-
 export default function WhatSetApart() {
   return (
     <section className="bg-white w-full ">

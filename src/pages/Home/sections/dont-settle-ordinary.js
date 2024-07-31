@@ -1,4 +1,3 @@
-import { Button } from "antd";
 import { FaArrowRight } from "react-icons/fa6";
 
 export default function DontSettleOrdinary() {
