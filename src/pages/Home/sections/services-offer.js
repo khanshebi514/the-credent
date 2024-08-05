@@ -19,7 +19,7 @@ export default function ServiceOffer() {
     )}
         
        </div>  
-        <button className="w-[150px] p-4 rounded-none bg-primary text-white hover:bg-[#0099e6] absolute -bottom-20 left-8">
+        <button className="w-[170px] p-4 rounded-none bg-primary text-white hover:bg-[#0099e6] absolute -bottom-[70px] left-8">
             Learn More
         </button>
   

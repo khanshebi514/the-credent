@@ -20,8 +20,11 @@ export default function CredSolCard({
         background: background,
       }}
     >
-      <div className="max-w-[1200px] m-auto py-[80px]">
+      <div className="max-w-[1200px] m-auto py-[90px]">
       <Row
+        style={{
+          marginTop:'20px'
+        }}
         align={'top'}
         justify={display}
       >
@@ -34,7 +37,7 @@ export default function CredSolCard({
             alt="when need to cred"
             width={(order || display ==='space-between' || display === 'center') ? 450 : 320}
             height={400}
-            className={`object-cover block ${(order ===false && display === 'start') ? 'scale-110' : 'scale-100' }`}
+            className={`object-cover block ${(order ===false && display === 'start') ? 'scale-110' : 'scale-110' }`}
           />
         </Col>
 
@@ -47,8 +50,8 @@ export default function CredSolCard({
           {title ? (
             <h1 className="text-[#222] mb-5 font-[700] text-[25px] md:text-[40px] ml-2 font-poppins tracking-tighter leading-tight">{title}</h1>
           ) : (
-            <h1 className="text-[28px] text-[#222] mb-5 font-[400] ml-2">
-              <span className="font-[800]">When Do</span> You need Credentialing
+            <h1 className="text-[28px] text-[#222] mb-5 font-[400] ml-2 tracking-tighter">
+              <span className="font-[900]">When Do</span> You need Credentialing
               Services
             </h1>
           )}

@@ -1,8 +1,8 @@
 export default function WhatSetApart() {
   return (
     <section className="bg-white w-full ">
-      <div className="max-w-[1280px] m-auto mt-5 md:mt-[50px] w-full p-12">
-        <div className="w-[100%] h-[2px] bg-gray-300 shadow-lg m-auto mb-10 md:mb-[50px]"></div>
+      <div className="max-w-[1280px] m-auto mt-5 md:mt-[30px] w-full p-12">
+        <div className="w-[100%] h-[1px] bg-[#7777] shadow-lg m-auto mb-6 md:mb-[100px] opacity-30"></div>
 
         <div className="my-12">
           <h1 className="text-xl md:text-3xl text-[#222]">
@@ -80,7 +80,7 @@ export default function WhatSetApart() {
             </div>
           </div>
         </div>
-        <div className="w-[90%] h-[1px] bg-gray-300 shadow-lg m-auto my-5 md:mb-[50px]"></div>
+        <div className="w-full h-[1px] bg-[#7777] shadow-lg m-auto my-5 md:mb-[50px] opacity-35"></div>
 
         <div className="flex justify-center items-center gap-5 flex-col text-center py-3  ">
           <h1 className="font-bold text-[1.7rem] w-full sm:w-[70%] lg:w-full text-center leading-relaxed">
@@ -88,7 +88,7 @@ export default function WhatSetApart() {
             <span className="bg-primary p-2 text-white leading-normal">happy</span> about The
             Credentialing Services
           </h1>
-          <p className="text-primary font-light">
+          <p className="text-primary font-light text-[16.8px]">
             Simple Words, Big Impact – Your Review Shapes Us.
           </p>
         </div>

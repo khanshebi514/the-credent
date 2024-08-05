@@ -1,9 +1,6 @@
-'use client'
 
-import ScreenWidth from "@/commons";
 import ValueOffer from "@/components/value-offer";
 import { OFFERS } from "@/constants";
-import { faL } from "@fortawesome/free-solid-svg-icons";
 
 export default function OffersSections() {
 
@@ -17,7 +14,7 @@ const data = OFFERS
         <section className="bg-white p-5">
            <ValueOffer  title={data[1].title} description={data[1].description} button={data[1].button} image={data[1].image} order={false} />
        </section>
-        <section className="bg-gray-200 p-5 bg-[url('/images/dim-bg.jpg')]">
+        <section className="bg-gray-200 p-5 bg-[url('/images/dim-bg.jpg')] ">
            <ValueOffer  title={data[2].title} description={data[2].description} button={data[2].button} image={data[2].image} order={false}/>
        </section>
     </main>
