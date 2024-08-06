@@ -15,15 +15,15 @@ export default function CredSolCard({
 }) {
   console.log(ColWidth);
   return (
-    <section className="my-20"
+    <section className="my-5 md:my-10 lg:my-14"
       style={{
         background: background,
       }}
     >
-      <div className="max-w-[1200px] m-auto py-[90px]">
+      <div className="max-w-[1200px] m-auto py-[10px] md:py-[30px] lg:py-[90px]">
       <Row
         style={{
-          marginTop:'20px'
+          marginTop:'15px'
         }}
         align={'top'}
         justify={display}
@@ -45,12 +45,12 @@ export default function CredSolCard({
         order={order ? 1 : 2}
           span={ColWidth.second.small}
           md={ColWidth.second.md}
-          className={`p-10 ${!order && display === 'start' ? 'md:pl-12' : 'pl-0'}`} 
+          className={`p-10 ${!order && display === 'start' ? 'lg:pl-12' : 'lg:pl-0'}`} 
         >
           {title ? (
             <h1 className="text-[#222] mb-5 font-[700] text-[25px] md:text-[40px] ml-2 font-poppins tracking-tighter leading-tight">{title}</h1>
           ) : (
-            <h1 className="text-[28px] text-[#222] mb-5 font-[400] ml-2 tracking-tighter">
+            <h1 className="text-[22px] md:text-[28px] text-[#222] mb-5 font-[400] ml-2 tracking-tighter">
               <span className="font-[900]">When Do</span> You need Credentialing
               Services
             </h1>

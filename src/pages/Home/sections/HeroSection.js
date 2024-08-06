@@ -25,7 +25,7 @@ export default function Hero() {
                 width={40}
                 height={10}
               />
-              <h2 className="text-[21px] text-white font-poppins font-[500]">
+              <h2 className="text-[18px] md:text-[21px] text-white font-poppins font-[500]">
                 WANT TO GET YOUR PRACTICE CREDENTIALED?
               </h2>
               <Image
@@ -35,7 +35,7 @@ export default function Hero() {
                 height={10}
               />
             </span>
-            <h1 className="text-[3.5rem] leading-[3.1rem] font-poppins font-extrabold text-white my-1 px-0 sm:px-14 md:px-18 lg:px-0 tracking-tighter mt-3">
+            <h1 className="text-[46px] md:text-[3.5rem] leading-[3.1rem] font-poppins font-extrabold text-white my-1 px-0 sm:px-14 md:px-18 lg:px-0 tracking-tighter mt-3">
               Take a closer look at our extensive set of services
             </h1>
             <p className="font-poppins text-white mt-1 p-2 text-[1.2rem] opacity-[0.7] font-[300] ">

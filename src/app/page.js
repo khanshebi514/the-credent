@@ -1,3 +1,4 @@
+import PartnerSlider from "@/components/partner-slider";
 import CredMethod from "@/pages/Home/sections/Credmethod";
 import DontSettleOrdinary from "@/pages/Home/sections/dont-settle-ordinary";
 import DosnDont from "@/pages/Home/sections/DosnDonts";
@@ -20,10 +21,12 @@ export default function Home() {
     <CredMethod/>
     <DosnDont/>
     <ServiceOffer/>
+    <PartnerSlider/>
     <GovtInsurance/>
     <OffersSections/>
     <DontSettleOrdinary/>
     <WhatSetApart/>
+    <PartnerSlider/>
    </main>
   );
 }

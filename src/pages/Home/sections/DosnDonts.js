@@ -33,27 +33,27 @@ export default function DosnDont() {
             gutter={[0, 5]}
           >
             {/*-------------------------- first main column----------------------------- */}
-            <Col xs={20} lg={14}  order={width > 1000 ? 0 : 1}>
+            <Col xs={24} lg={14}  order={width > 1000 ? 0 : 1}>
               <Row
                 align={"middle"}
                 className="bg-white flex justify-center py-14 px-2 w-full"
               >
                 <div className="w-[90%] text-start">
-                  <h1 className="font-bold text-[36px] text-[#212529] md:text-4xl lg:mr-16 mb-5">
+                  <h1 className="font-bold text-[28px] md:text-[36px] text-[#212529] lg:mr-16 mb-5">
                     DOs & DONT
                   </h1>
                 </div>
                 <Col
-                  className="bg-white shadow-lg py-3 h-[520px] "
+                  className="bg-white shadow-lg py-3 h-[400px] md:h-[520px]"
                   sm={12}
                   md={11}
-                  xs={20}
+                  xs={24}
                 >
                   <span className="bg-primary w-full flex justify-center items-center px-[16px] py-[24px]">
                     <h1 className="info-text text-white !text-[20px]">DOs</h1>
                   </span>
 
-                  <ul className="space-y-6 px-3 mt-6 leading-9">
+                  <ul className="space-y-3 md:space-y-6 px-2 mt-6 leading-6 md:leading-9">
 
                    <li  className="text-[17px] font-[400] flex justify-start items-start gap-2 "> <span><IoIosCheckmark size={30} className="text-green-600"/></span> Master digital credentialing</li>
 
@@ -67,15 +67,15 @@ export default function DosnDont() {
                 </Col>
 
                 <Col
-                  className="bg-white shadow-lg py-3 h-[520px]"
+                  className="bg-white shadow-lg py-3 h-[400px] md:h-[520px]"
                   sm={12}
                   lg={11}
-                  xs={20}
+                  xs={24}
                 >
                   <span className="bg-[#97643D] w-full flex justify-center items-center px-[16px] py-[24px]">
                     <h1 className="info-text text-white !text-[20px]">DONT</h1>
                   </span>
-                 <ul className="space-y-6 px-5 mt-6 leading-9">
+                 <ul className="space-y-3 md:space-y-6 px-5 mt-6 leading-6 md:leading-9">
 
                    <li  className="text-[17px] font-[400] flex justify-start text-start items-start gap-2 "> <span><RxCross2 size={20} className="text-red-600 mt-2"/></span> Resist digital transformation</li>
 
@@ -93,9 +93,9 @@ export default function DosnDont() {
             {/*-------------------------- second main column----------------------------- */}
 
             <Col
-              span={8}
+              span={10}
               lg={8}
-              xs={20}
+              xs={24}
               order={width < 1000 ? 0 :1}
               className="flex justify-center items-center my-2 w-full"
             >

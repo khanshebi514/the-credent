@@ -199,7 +199,7 @@ export const OFFERS = [
         image:'/images/Group-34.png',
         title :"Insurance Contract Rate Negotiations",
         description:"We strive for high reimbursement rates, reduced administrative burdens, and effective dispute resolution. We're well-versed in value-based care contract negotiations to enhance care quality and increase revenue. Our comprehensive services include market analysis for fair rates, tailored negotiation strategies, contract drafting, negotiation management, and ongoing guidance.",
-        button:'Learn More'
+        button:'LEARN MORE'
 
     },
 
@@ -207,14 +207,14 @@ export const OFFERS = [
         image:'/images/Group-35.png',
         title :"IPA Enrollment",
         description:"We facilitate enrollment with Independent Physician Associations (IPA) for access to a wide patient and payer network. Our services cover IPA selection, application completion, document submission, follow-up, and issue resolution. We provide ongoing support to maintain IPA enrollment and compliance with updated standards.",
-        button:'Learn More'
+        button:'LEARN MORE'
 
     },
     {
         image:'/images/Group-16.png',
         title :"Revalidation and Recredentialing",
         description:"We assist healthcare providers in renewing and maintaining credentials, ensuring compliance with the latest regulations and payer requirements. Our services include deadline tracking, application assistance, documentation collection, follow-up, and issue resolution for hassle-free revalidation and recredentialing.",
-        button:'Learn More'
+        button:'LEARN MORE'
 
     },
 ]

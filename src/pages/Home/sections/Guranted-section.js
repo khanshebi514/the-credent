@@ -12,16 +12,16 @@ export default function GurantedSection() {
  }}
    >
     <div className="mt-5 lg:mt-20 flex justify-center items-center">
-    <div className="w-[90%] p-5 lg:w-[926px]">
-    <h1 className="font-bold text-black text-[32px] mb-5 text-center">
+    <div className="w-[90%] p-5 lg:w-[1000px]">
+    <h1 className="font-bold text-black text-[28px] md:text-[36px] mb-5 text-center">
     Credentialing Excellence Guaranteed
     </h1>
-    <p className="font-poppins text-[#777] text-[19px] text-center font-[300] tracking-tighter"> Credentialing ensures that healthcare providers are properly recognized and authorized by insurance companies, guaranteeing a smooth and accurate reimbursement system. At TheCredentialing, were your dedicated partners in the provider credentialing process helping you keep pace with the fastly progressing healthcare industry and stay ahead of the competition. </p>
+    <p className="font-poppins text-[#777] text-xl text-center font-[300] tracking-tighter leading-6 md:leading-8"> Credentialing ensures that healthcare providers are properly recognized and authorized by insurance companies, guaranteeing a smooth and accurate reimbursement system. At TheCredentialing, were your dedicated partners in the provider credentialing process helping you keep pace with the fastly progressing healthcare industry and stay ahead of the competition. </p>
     </div>
     </div>
 
 <div className="py-14 px-5 ">
-<div className="flex flex-col lg:flex-row justify-around items-center gap-[50px] mt-10 md:bg-[url(/images/home-concept-icons.png)] bg-none" 
+<div className="flex flex-col lg:flex-row justify-around items-center gap-[20px] lg:gap-[50px] mt-5 lg:mt-10 md:bg-[url(/images/home-concept-icons.png)] bg-none" 
     style={{
         backgroundSize:'contain',
         backgroundRepeat:'no-repeat',

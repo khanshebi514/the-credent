@@ -65,18 +65,18 @@ export default function Footer() {
         <div className="bg-[#16181B] w-full">
          <div className="max-w-[1200px] m-auto text-white flex justify-center md:justify-between items-center gap-3 text-xs flex-wrap p-5 flex-1">
         
-            <Image src="/images/logo-white.png" alt="" width={250} style={{opacity:'0.4'}}/>
-           
-
-           
-             <p className="text-[#777] w-fit ">&copy; Copyright 2024. All Rights Reserved.</p>
+        <div className="flex justify-center items-center gap-10">
+        <Image src="/images/logo-white.png" alt="" width={250} style={{opacity:'0.4'}}/>
+           <p className="text-[#777] w-fit ">&copy; Copyright 2024. All Rights Reserved.</p>
+        </div>
+            
  
-            <div className="flex justify-center items-center gap-5 text-[11px] flex-wrap sm:flex-nowrap ">
-                <ListItem  iconURL={<FaAngleRight className="mt-[2px]"/>} text={<Link className="hover:text-white text-[#777] text-[14px] " href={'/faqs'}>FAQs</Link>}/>
-                <ListItem  iconURL={<FaAngleRight className="mt-[2px]"/>} text={<Link className="hover:text-white text-[#777] text-[14px]" href={'/sitemap'}>Blog</Link>}/>
-                <ListItem  iconURL={<FaAngleRight className="mt-[2px]"/>} text={<Link className="hover:text-white text-[#777] text-[14px] " href={'/contact-us'}>Sitemap</Link>}/>
-                <ListItem  iconURL={<FaAngleRight className="mt-[2px]"/>} text={<Link className="hover:text-white text-[#777] text-[14px] text-nowrap" href={'/privacy-policy '}>Contact Us</Link>}/>
-                <ListItem  iconURL={<FaAngleRight className="mt-[2px]"/>} text={<Link className="hover:text-white text-[#777] text-[14px] text-nowrap" href={'/terms-conditon'}>Privacy Policy</Link>}/>
+            <div className="flex justify-center items-center gap-3 text-[11px] flex-wrap sm:flex-nowrap ">
+                <ListItem  iconURL={<FaAngleRight className="mt-[2px] text-[#777]"/>} text={<Link className="hover:text-white text-[#777] text-[12px] " href={'/faqs'}>FAQs</Link>}/>
+                <ListItem  iconURL={<FaAngleRight className="mt-[2px] text-[#777]"/>} text={<Link className="hover:text-white text-[#777] text-[12px]" href={'/sitemap'}>Blog</Link>}/>
+                <ListItem  iconURL={<FaAngleRight className="mt-[2px] text-[#777]"/>} text={<Link className="hover:text-white text-[#777] text-[12px] " href={'/contact-us'}>Sitemap</Link>}/>
+                <ListItem  iconURL={<FaAngleRight className="mt-[2px] text-[#777]"/>} text={<Link className="hover:text-white text-[#777] text-[12px] text-nowrap" href={'/privacy-policy '}>Contact Us</Link>}/>
+                <ListItem  iconURL={<FaAngleRight className="mt-[2px] text-[#777]"/>} text={<Link className="hover:text-white text-[#777] text-[12px] text-nowrap" href={'/terms-conditon'}>Privacy Policy</Link>}/>
             </div>
           
         </div>    

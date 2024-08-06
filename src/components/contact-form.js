@@ -15,7 +15,7 @@ export default function ContactForm() {
               </p>
 
               <div className="flex flex-col gap-3 w-[100%]">
-                <div className="flex justify-around items-center gap-2 md:gap-5 flex-col lg:flex-row w-[90%] m-auto">
+                <div className="flex justify-around items-center gap-2 md:gap-[26px] flex-col lg:flex-row w-[90%] m-auto">
                   <Input
                     type="text"
                     placeholder="Your Name ..."
@@ -28,7 +28,7 @@ export default function ContactForm() {
                   className="rounded-[5px] w-full py-3"/>
                 </div>
 
-                <div className="flex justify-around items-center gap-2 md:gap-5 flex-col md:flex-row w-[90%] m-auto">
+                <div className="flex justify-around items-center gap-2 md:gap-[26px] flex-col md:flex-row w-[90%] m-auto">
                   <Input type="email" placeholder="Your Email ..." name="email" size="large" className="w-full rounded-[5px] py-3"/>
 
                 <select className="w-full p-2 h-[50px] rounded-[5px] outline-none border-none font-poppins py-3">
