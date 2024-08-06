@@ -81,14 +81,14 @@ export const MENU_ITEM = [
         path:'forum'
     },
     {
-        label:(<Link href='/about-us'>About Us</Link>),
+        label:(<Link href='/blogs'>Blogs</Link>),
         key:'5',
-        path:'about-us',
+        path:'blogs',
     },
     {
-        label:(<Link href='/contact-us'>Contact Us</Link>),
+        label:(<Link href='/company'>Company</Link>),
         key:'6',
-        path:'contact-us'
+        path:'company'
     },
 ]
 

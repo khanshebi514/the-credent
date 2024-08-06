@@ -8,7 +8,7 @@
 .ant-menu-horizontal a{
  font-family: "Poppins",sans-serif;
  font-weight: 600;
- font-size: 0.9rem;
+ font-size: 0.95rem;
  gap: none !important;
  color: #203993 !important;
 }
@@ -38,22 +38,22 @@
 
 .ant-menu-horizontal li a{
     border-bottom: none !important;
-    padding: 12px !important;
+    padding: 12px 8px !important;
     margin: 0px !important;
     grid-area: 0px !important;
-    
+  
 }
 
 .ant-menu-horizontal{
     border: none !important;
     width: fit-content !important;
     padding: none !important;
-    gap: none !important;
+    gap: none !important
 
 }
 .custum_menu li { 
     /* padding: 0px 100px !important; */
-    padding-inline: 2px !important;
+    padding-inline: 1px !important;
     border: none;
 }
 .custum_menu{

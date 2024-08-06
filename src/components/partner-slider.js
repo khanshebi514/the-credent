@@ -43,7 +43,7 @@ export default function PartnerSlider() {
   };
 
   return (
-    <section className="bg-white my-5 py-5">
+    <section className="bg-white my-5 pb-14">
       <div className="max-w-[1200px] m-auto">
       <Slider {...settings} >
 

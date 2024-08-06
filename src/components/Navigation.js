@@ -22,7 +22,7 @@ export default function Navigation() {
         <Image src='./images/cred-logo.svg' alt="lgo image" height={80} width={300}/>
       </div>
 
-      <div className="hidden w-[650px] lg:flex justify-center items-center">
+      <div className="hidden w-[700px] lg:flex justify-center items-center gap-4">
       <Menu mode="horizontal" items={MENU_ITEM} className="custum_menu uppercase" />
         {/* <Menu items={MENU_ITEM} mode="horizontal" className=" w-full custum_menu" selectedKeys={'1'} /> */}
         <div className="flex justify-center items-center gap-3">

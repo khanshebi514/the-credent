@@ -52,7 +52,7 @@ export default function Footer() {
                />
 
                 </div>
-                <div className="flex items-center gap-2 text-white mt-5">
+                <div className="flex items-center gap-1 text-white mt-5">
                 <FaFacebookF size={30} className="cursor-pointer bg-white rounded-full text-black w-[30px] h-[30px] p-1"/>
                 <TiSocialLinkedin size={30} className="cursor-pointer bg-white rounded-full text-black w-[30px] h-[30px] p-1"/>
                 <FaXTwitter size={30} className="cursor-pointe bg-white rounded-full text-black w-[30px] h-[30px] p-1"/>
@@ -62,8 +62,8 @@ export default function Footer() {
 
             
         </div>
-        <div className="bg-[#16181B] w-full">
-         <div className="max-w-[1200px] m-auto text-white flex justify-center md:justify-between items-center gap-3 text-xs flex-wrap p-5 flex-1">
+        <div className="bg-[#16181B] w-full h-[100px]">
+         <div className="max-w-[1200px] m-auto text-white flex justify-center md:justify-between items-center gap-3 text-xs flex-wrap p-5 flex-1 h-full">
         
         <div className="flex justify-center items-center gap-10">
         <Image src="/images/logo-white.png" alt="" width={250} style={{opacity:'0.4'}}/>
