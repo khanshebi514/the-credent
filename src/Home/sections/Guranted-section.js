@@ -7,7 +7,7 @@ export default function GurantedSection() {
     backgroundPosition:'center',
     backgroundSize:'contain',
     backgroundRepeat:'no-repeat',
-    backgroundPositionY:'360px'
+    backgroundPositionY:'375px'
      
  }}
    >

@@ -31,7 +31,7 @@ export default function CredSolCard({
         <Col 
            order={order ? 2 : 1}
           span={ColWidth.first.small}
-          md={ColWidth.first.md} className="p-10 md:p-0">
+          md={ColWidth.first.md} className="p-3 sm:p-5 md:p-0">
           <Image
             src={image}
             alt="when need to cred"
@@ -45,7 +45,7 @@ export default function CredSolCard({
         order={order ? 1 : 2}
           span={ColWidth.second.small}
           md={ColWidth.second.md}
-          className={`p-10 ${!order && display === 'start' ? 'lg:pl-12' : 'lg:pl-0'}`} 
+          className={`pl-2 sm:pl-5 ${!order && display === 'start' ? 'lg:pl-12' : 'lg:pl-0'}`} 
         >
           {title ? (
             <h1 className="text-[#222] mb-5 font-[700] text-[25px] md:text-[40px] ml-2 font-poppins tracking-tighter leading-tight">{title}</h1>

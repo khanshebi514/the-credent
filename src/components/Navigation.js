@@ -31,11 +31,17 @@ export default function Navigation() {
         <FaInstagram size={24}  className="bg-white  rounded-full cursor-pointer card-shadow p-1  hover:bg-primary hover:text-white text-black"/>
       </div>
       </div>
+      <div className="flex justify-center items-center gap-3 lg:hidden">
+        <FaFacebookF  size={24} className="bg-white rounded-full cursor-pointer card-shadow p-1  hover:bg-primary hover:text-white text-black"/>
+        <FaXTwitter size={24}  className="bg-white  rounded-full cursor-pointer card-shadow p-1  hover:bg-primary hover:text-white text-black"/>
+        <FaLinkedinIn size={24}  className="bg-white rounded-full cursor-pointer card-shadow p-1  hover:bg-primary hover:text-white text-black"/>
+        <FaInstagram size={24}  className="bg-white  rounded-full cursor-pointer card-shadow p-1  hover:bg-primary hover:text-white text-black"/>
+      </div>
 
       
 
       <div className=" relative">   
-        <button className="rounded-[5px] text-white px-[16px] py-[12px]  bg-primary text-sm font-[500] text-nowrap hover:bg-[#00a1f2] hidden lg:block "> 
+        <button className="rounded-[5px] text-white px-[16px] py-[12px]  bg-primary text-sm font-[700] text-nowrap hover:bg-[#00a1f2] hidden lg:block text-[17px] "> 
           Sign In
         </button>
         <button className="rounded-[5px] text-white px-[14px] py-[9px] bg-primary text-sm font-[500] text-nowrap hover:bg-[#00a1f2] flex lg:hidden"> 

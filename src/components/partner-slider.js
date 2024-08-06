@@ -11,9 +11,8 @@ export default function PartnerSlider() {
     centerMode: true,
     infinite: true,
     autoplay:true,
-    centerPadding: "60px",
     speed: 200,
-    slidesToShow: 5,
+    slidesToShow: 6,
     responsive: [
       {
         breakpoint: 1024,
@@ -44,7 +43,7 @@ export default function PartnerSlider() {
 
   return (
     <section className="bg-white my-5 pb-14">
-      <div className="max-w-[1200px] m-auto">
+      <div className="max-w-[1200px] m-auto overflow-hidden">
       <Slider {...settings} >
 
         <div>

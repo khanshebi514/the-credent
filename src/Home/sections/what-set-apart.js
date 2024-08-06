@@ -1,7 +1,7 @@
 export default function WhatSetApart() {
   return (
     <section className="bg-white w-full ">
-      <div className="max-w-[1280px] m-auto mt-5 md:mt-[30px] w-full p-12">
+      <div className="max-w-[1280px] m-auto mt-5 md:mt-[30px] w-full p-2 md:p-12">
         <div className="w-full h-[1px] bg-[#7777] shadow-lg m-auto mb-6 md:mb-[100px] opacity-30"></div>
 
         <div className="my-12">
@@ -12,7 +12,7 @@ export default function WhatSetApart() {
 
         <div className="flex justify-between flex-wrap ml-0 lg:ml-14">
           <div className="">
-            <div className="w-[300px] sm:w-[320px] h-[148px] space-y-3">
+            <div className="w-full sm:w-[320px] h-[148px] space-y-3">
               <h2 className="text-lg md:text-xl font-bold text-[#222]">Expertise</h2>
               <p className="text-gray-400">
                 Our in-depth industry knowledge ensures precision and compliance
@@ -20,7 +20,7 @@ export default function WhatSetApart() {
               </p>
             </div>
 
-            <div className="gap-2 w-[300px] sm:w-[320px] h-[148px] space-y-3">
+            <div className="gap-2 w-full sm:w-[320px] h-[148px] space-y-3">
               <h2 className="text-lg md:text-xl font-bold text-[#222]">Dedication</h2>
               <p className="text-gray-400">
                 Were committed to your success, working tirelessly to exceed
@@ -28,7 +28,7 @@ export default function WhatSetApart() {
               </p>
             </div>
 
-            <div className="gap-2 w-[300px] sm:w-[320px] h-[148px] space-y-3">
+            <div className="gap-2 w-full sm:w-[320px] h-[148px] space-y-3">
               <h2 className="text-lg md:text-xl font-bold text-[#222]">Efficieny</h2>
               <p className="text-gray-400">
                 We streamline the process, saving you time, reducing delays, and
@@ -37,7 +37,7 @@ export default function WhatSetApart() {
             </div>
           </div>
           <div>
-            <div className="w-[300px] sm:w-[320px] h-[148px] space-y-3">
+            <div className="w-full sm:w-[320px] h-[148px] space-y-3">
               <h2 className="text-lg md:text-xl font-bold text-[#222]">Pocket Friendly</h2>
               <p className="text-gray-400">
                 We provide our services at a competitive rate of $149 per
@@ -45,7 +45,7 @@ export default function WhatSetApart() {
               </p>
             </div>
 
-            <div className="w-[300px] sm:w-[320px] h-[148px] space-y-3">
+            <div className="w-full sm:w-[320px] h-[148px] space-y-3">
               <h2 className="text-lg md:text-xl font-bold text-[#222]">Proactive</h2>
               <p className="text-gray-400">
                 Our team anticipates changes and needs, staying ahead of
@@ -53,7 +53,7 @@ export default function WhatSetApart() {
               </p>
             </div>
 
-            <div className="gap-2 w-[300px] sm:w-[320px] h-[148px] space-y-3">
+            <div className="gap-2 w-full sm:w-[320px] h-[148px] space-y-3">
               <h2 className="text-lg md:text-xl font-bold text-[#222]">Comprehensive</h2>
               <p className="text-gray-400">
                 We handle initial credentialing, re-credentialing, and all
@@ -63,7 +63,7 @@ export default function WhatSetApart() {
           </div>
           <div>
 
-            <div className="w-[300px] sm:w-[350px] md:w-[400px] bg-[#f0eeeea2] p-1 rounded-t-md">
+            <div className="w-full sm:w-[350px] md:w-[400px] bg-[#f0eeeea2] p-1 rounded-t-md">
               <h2 className="py-2 font-bold text-lg ml-2 text-[#222]">
                 A Gateway to Credentialing
               </h2>
