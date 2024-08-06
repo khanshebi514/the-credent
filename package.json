@@ -1,7 +1,12 @@
 {
   "name": "the-credent",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "author": {
+    "name":"shoaib Rasool",
+    "role" : "Front end Developer",
+    "Skill_level" :"A+"
+  },
   "scripts": {
     "dev": "(if exist .next rd /s /q .next 2>nul) && next dev",
     "build": "next build",

@@ -7,7 +7,7 @@ import { TiLocation, TiSocialLinkedin } from "react-icons/ti";
 import {FaAngleRight, FaFacebookF, FaXTwitter} from "react-icons/fa6";
 import { TiSocialLinkedinCircular } from "react-icons/ti";
 
-import ListItem from "@/pages/Home/sections/listItem";
+import ListItem from "@/Home/sections/listItem";
 
 export default function Footer() {
   return (

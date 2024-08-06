@@ -1,5 +1,5 @@
 
-import ListItem from "@/pages/Home/sections/listItem";
+import ListItem from "@/Home/sections/listItem";
 import { Col, Row } from "antd";
 import Image from "next/image";
 import { FaCaretRight } from "react-icons/fa";
